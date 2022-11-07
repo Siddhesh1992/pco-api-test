@@ -1,0 +1,206 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>pco-api documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	   <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">pco-api documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content getting-started">
+                   <div class="content-data">
+
+<h1 id="paramount-cost-optimization">Paramount Cost Optimization</h1>
+<blockquote>
+<p>APIs for the Paramount Cloud Optimization Project </p>
+</blockquote>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#general-information">General Info</a></li>
+<li><a href="#technologies-used">Technologies Used</a></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#environment-variables">Environment Variables</a></li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#accessing-the-apis">Accessing the APIs</a></li>
+<li><a href="#testing">Testing</a></li>
+</ul>
+<h2 id="general-information">General Information</h2>
+<ul>
+<li>Provide cloud related data.</li>
+<li>Understanding and analysis of cost optimization.</li>
+</ul>
+<h2 id="technologies--tools">Technologies &amp; Tools</h2>
+<p><a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/Code-NodeJS-informational?style=flat&logo=node.js&logoColor=white&color=2bbc8a" alt="" class="img-responsive"></a>
+<a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/Tools-Npm-informational?style=flat&logo=npm&logoColor=white&color=2bbc8a" alt="" class="img-responsive"></a>
+<a href="https://nestjs.com/"><img src="https://img.shields.io/badge/Frameworks-NestJS-informational?style=flat&logo=nestjs&logoColor=white&color=2bbc8a" alt="" class="img-responsive"></a>
+<a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/Databases-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=2bbc8a" alt="" class="img-responsive"></a>
+<a href="https://www.prisma.io/"><img src="https://img.shields.io/badge/Tools-Prisma-informational?style=flat&logo=prisma&logoColor=white&color=2bbc8a" alt="" class="img-responsive"></a>
+<a href="https://kubernetes.io/"><img src="https://img.shields.io/badge/Tools-Kubernetes-informational?style=flat&logo=kubernetes&logoColor=white&color=2bbc8a" alt="" class="img-responsive"></a>
+<a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a" alt="" class="img-responsive"></a>
+<a href="https://www.jenkins.io/"><img src="https://img.shields.io/badge/Tools-Jenkins-informational?style=flat&logo=jenkins&logoColor=white&color=2bbc8a" alt="" class="img-responsive"></a>
+<a href="https://jestjs.io/"><img src="https://img.shields.io/badge/Tools-Jest-informational?style=flat&logo=jest&logoColor=white&color=2bbc8a" alt="" class="img-responsive"></a></p>
+<h2 id="requirements">Requirements</h2>
+<p>For running the application,you will only Node.js(v14 and above) and a package manager like npm installed in your environment.The NestJs CLI will also be needed to be installed globally. You will also need a database explorer like HeidiSQL, pgAdmin etc for connecting to the database.</p>
+<h2 id="installation">Installation</h2>
+<ul>
+<li>Clone the <code>pco-api</code> repository from GitHub.</li>
+<li>Then enter the pco-api directory using command <code>cd pco-api</code>.</li>
+<li>Run the initial installation of all modules using command <code>npm install</code>.</li>
+</ul>
+<h2 id="environment-variables">Environment Variables</h2>
+<p>Create a .env.development and .env file at the root of the directory and add the following environment variables.</p>
+<ul>
+<li>OKTA_AUDIENCE=&#39;api://default&#39;</li>
+<li>OKTA_ISSUER=&#39;<a href="https://dev-00136695.okta.com/oauth2/default&#39;">https://dev-00136695.okta.com/oauth2/default&#39;</a></li>
+<li>OKTA_CLIENT_ID=0oa492y4g4lJRRJJP5d7</li>
+<li>OKTA_INTROSPECT_URL=<a href="https://dev-00136695.okta.com/oauth2/default/v1/introspect">https://dev-00136695.okta.com/oauth2/default/v1/introspect</a></li>
+<li>OKTA_USERINFO_URL=<a href="https://cbsi.okta.com/oauth2/v1/userinfo">https://cbsi.okta.com/oauth2/v1/userinfo</a></li>
+<li>AWS_ASSUME_ROLE=viacbs-inventory-app-ro</li>
+<li>AWS_ACCOUNTS=&#39;{&quot;viacbs-app-dev&quot;:&quot;421771595440&quot;}&#39;</li>
+<li>DATABASE_URL=&quot;postgresql://postgres:password@localhost:5432/database?schema=public&quot;</li>
+<li>NEW_RELIC_API_URL=&#39;<a href="https://api.newrelic.com/graphql&#39;">https://api.newrelic.com/graphql&#39;</a></li>
+<li>NEW_RELIC_API_KEY=NRAK-XXXXXXXXXXXXXXXXXXXXX</li>
+<li>NEW_RELIC_MASTER_ACCOUNT=766473</li>
+<li>SERVICE_NOW_USERNAME=XXXXXX</li>
+<li>SERVICE_NOW_PASSWORD=XXXXXX</li>
+<li>SERVICE_NOW_URL=<a href="https://viacomcbsdev.service-now.com/">https://viacomcbsdev.service-now.com/</a></li>
+<li>SERVICE_NOW_TABLE_URL=api/now/table/</li>
+<li>SERVICE_NOW_CI_URL=vcsp</li>
+<li>SERVICE_NOW_CHANGE_REQUEST=change_request</li>
+<li>SERVICE_NOW_CONFIGURATION_ITEMS=cmdb_ci</li>
+<li>SERVICE_NOW_ADD_CONFIGURATION_ITEMS=task_ci</li>
+<li>SERVICE_NOW_KEY_CLIENT_LIST=u_m2m_users_ci_keycl</li>
+</ul>
+<h2 id="external-integrations">External Integrations</h2>
+<p>Okta</p>
+<ul>
+<li>Integration with Okta for token verification on login and fetching of user accounts details.</li>
+</ul>
+<p>New Relic</p>
+<ul>
+<li>Integration with New Relic to help application owners track the memory utilization of their services.</li>
+</ul>
+<p>Service Now</p>
+<ul>
+<li>Integration with Service Now to help application owners create requests.</li>
+</ul>
+<h2 id="usage">Usage</h2>
+<p>Development Environment</p>
+<ul>
+<li>Run the command <code>npm run start:dev</code> to start up the api server.</li>
+</ul>
+<p>Production Environment</p>
+<ul>
+<li>Run the command <code>npm run build</code> to create a build.</li>
+<li>Then the command <code>npm start</code> to start the server.</li>
+</ul>
+<p>The server should start running on port <code>4000</code>.</p>
+<h2 id="accessing-the-apis">Accessing the APIs</h2>
+<p>APIs details can be found in the requests.http file which can be used to send requests in VS Code using the REST Client extension or a third party software like Postman.</p>
+<p>The list of APIs can also be found at the <a href="http://localhost:4000/api/">http://localhost:4000/api/</a> route integrated with the Swagger UI.</p>
+<h2 id="testing">Testing</h2>
+<ul>
+<li>Test Suites can be run using the command <code>npm run test</code>.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 0;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'getting-started';
+            var COMPODOC_CURRENT_PAGE_URL = 'index.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="./js/libs/custom-elements.min.js"></script>
+       <script src="./js/libs/lit-html.js"></script>
+
+       <script src="./js/menu-wc.js" defer></script>
+       <script nomodule src="./js/menu-wc_es5.js" defer></script>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/clipboard.min.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+          <script src="./js/search/search.js"></script>
+          <script src="./js/search/lunr.min.js"></script>
+          <script src="./js/search/search-lunr.js"></script>
+          <script src="./js/search/search_index.js"></script>
+       <script src="./js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

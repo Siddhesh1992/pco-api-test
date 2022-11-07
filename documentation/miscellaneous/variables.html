@@ -1,0 +1,3984 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>pco-api documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">pco-api documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content miscellaneous-variables">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Miscellaneous</li>
+  <li>Variables</li>
+</ol>
+
+<section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <ul class="index-list">
+                        <li>
+                            <a href="#applyPaginationFilter" title="src/utils.ts" ><b>applyPaginationFilter</b>&nbsp;&nbsp;&nbsp;(src/.../utils.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#applyWhereFilter" title="src/utils.ts" ><b>applyWhereFilter</b>&nbsp;&nbsp;&nbsp;(src/.../utils.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#db" title="src/utils.ts" ><b>db</b>&nbsp;&nbsp;&nbsp;(src/.../utils.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#ENV" title="src/app.module.ts" ><b>ENV</b>&nbsp;&nbsp;&nbsp;(src/.../app.module.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#excelFileToJson" title="src/utils.ts" ><b>excelFileToJson</b>&nbsp;&nbsp;&nbsp;(src/.../utils.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#excelToJson" title="src/utils.ts" ><b>excelToJson</b>&nbsp;&nbsp;&nbsp;(src/.../utils.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#exec" title="src/migration/migration.service.ts" ><b>exec</b>&nbsp;&nbsp;&nbsp;(src/.../migration.service.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getLatestRefreshDate" title="src/utils.ts" ><b>getLatestRefreshDate</b>&nbsp;&nbsp;&nbsp;(src/.../utils.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#group_data" title="prisma/seed/group-seed/group_data.ts" ><b>group_data</b>&nbsp;&nbsp;&nbsp;(prisma/.../group_data.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#in_built_data" title="prisma/seed/in-built-job/in-built_data.ts" ><b>in_built_data</b>&nbsp;&nbsp;&nbsp;(prisma/.../in-built_data.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#knex_config" title="src/config/index.ts" ><b>knex_config</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#miscellanous_data" title="prisma/seed/miscellanous-seed/miscellanous_data.ts" ><b>miscellanous_data</b>&nbsp;&nbsp;&nbsp;(prisma/.../miscellanous_data.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#myFormat" title="src/main.ts" ><b>myFormat</b>&nbsp;&nbsp;&nbsp;(src/.../main.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#paginate" title="src/utils.ts" ><b>paginate</b>&nbsp;&nbsp;&nbsp;(src/.../utils.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#prisma" title="prisma/seed.ts" ><b>prisma</b>&nbsp;&nbsp;&nbsp;(prisma/.../seed.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#prisma" title="prisma/seed/custom-jobs/index.ts" ><b>prisma</b>&nbsp;&nbsp;&nbsp;(prisma/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#prisma" title="prisma/seed/group-seed/index.ts" ><b>prisma</b>&nbsp;&nbsp;&nbsp;(prisma/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#prisma" title="prisma/seed/miscellanous-seed/index.ts" ><b>prisma</b>&nbsp;&nbsp;&nbsp;(prisma/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#prisma" title="prisma/seed/in-built-job/index.ts" ><b>prisma</b>&nbsp;&nbsp;&nbsp;(prisma/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#prisma" title="prisma/seed/weekly-saving-seed/index.ts" ><b>prisma</b>&nbsp;&nbsp;&nbsp;(prisma/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#prisma" title="prisma/seed/provider-seed/index.ts" ><b>prisma</b>&nbsp;&nbsp;&nbsp;(prisma/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#processesFindAll" title="data/test/processes/cron.ts" ><b>processesFindAll</b>&nbsp;&nbsp;&nbsp;(data/.../cron.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#provider" title="data/test/weekly_summary/index.ts" ><b>provider</b>&nbsp;&nbsp;&nbsp;(data/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#provider_data" title="prisma/seed/provider-seed/provider_data.ts" ><b>provider_data</b>&nbsp;&nbsp;&nbsp;(prisma/.../provider_data.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#rule_data" title="prisma/seed/custom-jobs/cron_data.ts" ><b>rule_data</b>&nbsp;&nbsp;&nbsp;(prisma/.../cron_data.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#updateCronProcess" title="src/utils.ts" ><b>updateCronProcess</b>&nbsp;&nbsp;&nbsp;(src/.../utils.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#weekly_savings_data" title="prisma/seed/weekly-saving-seed/weekly_savings_data.ts" ><b>weekly_savings_data</b>&nbsp;&nbsp;&nbsp;(prisma/.../weekly_savings_data.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#weekly_summary" title="data/test/weekly_summary/index.ts" ><b>weekly_summary</b>&nbsp;&nbsp;&nbsp;(data/.../index.ts)</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    <h3>src/utils.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="applyPaginationFilter"></a>
+                    <span class="name">
+                        <span ><b>applyPaginationFilter</b></span>
+                        <a href="#applyPaginationFilter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(queryWrapper, options, queryRef) &#x3D;&gt; {
+  const count &#x3D; options[&#x27;count&#x27;];
+  const sortField &#x3D; options[&#x27;sortField&#x27;];
+  const sortOrder &#x3D; options[&#x27;sortOrder&#x27;];
+  const limit &#x3D; options[&#x27;rows&#x27;];
+  const offset &#x3D; options[&#x27;skip&#x27;];
+  if (!count) {
+    if (sortField) {
+      queryWrapper.orderBy(sortField, sortOrder);
+    }
+    if (limit) {
+      queryWrapper.limit(limit);
+    }
+    if (offset) {
+      queryWrapper.offset(offset);
+    }
+  } else {
+    queryWrapper.count(&#x27;*&#x27;);
+  }
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="applyWhereFilter"></a>
+                    <span class="name">
+                        <span ><b>applyWhereFilter</b></span>
+                        <a href="#applyWhereFilter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(queryWrapper, options, queryRef) &#x3D;&gt; {
+  const obj &#x3D; {
+    and: &#x27;andWhere&#x27;,
+    or: &#x27;orWhere&#x27;,
+    undefined: &#x27;andWhere&#x27;,
+    null: &#x27;andWhere&#x27;,
+  };
+  const filters &#x3D; options[&#x27;filters&#x27;];
+  const globalOperator &#x3D; options[&#x27;operator&#x27;];
+
+  for (const column in filters) {
+    queryWrapper[obj[globalOperator]]((query) &#x3D;&gt; {
+      const fieldContraints &#x3D; filters[column];
+
+      const operator &#x3D; fieldContraints[&#x27;operator&#x27;];
+
+      const rawDateQuery &#x3D; queryRef.raw(&#x60;DATE(${column})&#x60;);
+      const rawTextQuery &#x3D; queryRef.raw(&#x60;${column}::TEXT&#x60;);
+
+      for (const constraint of fieldContraints[&#x27;constraints&#x27;]) {
+        if (constraint[&#x27;matchMode&#x27;] &#x3D;&#x3D;&#x3D; &#x27;contains&#x27;) {
+          query[obj[operator]](
+            rawTextQuery,
+            &#x27;ilike&#x27;,
+            &#x60;%${constraint[&#x27;value&#x27;]}%&#x60;,
+          );
+        } else if (constraint[&#x27;matchMode&#x27;] &#x3D;&#x3D;&#x3D; &#x27;notContains&#x27;) {
+          query[obj[operator]](
+            rawTextQuery,
+            &#x27;not ilike&#x27;,
+            &#x60;%${constraint[&#x27;value&#x27;]}%&#x60;,
+          );
+        } else if (constraint[&#x27;matchMode&#x27;] &#x3D;&#x3D;&#x3D; &#x27;endsWith&#x27;) {
+          query[obj[operator]](
+            rawTextQuery,
+            &#x27;ilike&#x27;,
+            &#x60;%${constraint[&#x27;value&#x27;]}&#x60;,
+          );
+        } else if (constraint[&#x27;matchMode&#x27;] &#x3D;&#x3D;&#x3D; &#x27;startsWith&#x27;) {
+          query[obj[operator]](
+            rawTextQuery,
+            &#x27;ilike&#x27;,
+            &#x60;${constraint[&#x27;value&#x27;]}%&#x60;,
+          );
+        } else if (constraint[&#x27;matchMode&#x27;] &#x3D;&#x3D;&#x3D; &#x27;notEquals&#x27;) {
+          query[obj[operator]](column, &#x27;!&#x3D;&#x27;, &#x60;${constraint[&#x27;value&#x27;]}&#x60;);
+        } else if (constraint[&#x27;matchMode&#x27;] &#x3D;&#x3D;&#x3D; &#x27;equals&#x27;) {
+          query[obj[operator]](column, &#x27;&#x3D;&#x27;, &#x60;${constraint[&#x27;value&#x27;]}&#x60;);
+        } else if (constraint[&#x27;matchMode&#x27;] &#x3D;&#x3D;&#x3D; &#x27;lt&#x27;) {
+          query[obj[operator]](column, &#x27;&lt;&#x27;, &#x60;${constraint[&#x27;value&#x27;]}&#x60;);
+        } else if (constraint[&#x27;matchMode&#x27;] &#x3D;&#x3D;&#x3D; &#x27;lte&#x27;) {
+          query[obj[operator]](column, &#x27;&lt;&#x3D;&#x27;, &#x60;${constraint[&#x27;value&#x27;]}&#x60;);
+        } else if (constraint[&#x27;matchMode&#x27;] &#x3D;&#x3D;&#x3D; &#x27;gt&#x27;) {
+          query[obj[operator]](column, &#x27;&gt;&#x27;, &#x60;${constraint[&#x27;value&#x27;]}&#x60;);
+        } else if (constraint[&#x27;matchMode&#x27;] &#x3D;&#x3D;&#x3D; &#x27;gte&#x27;) {
+          query[obj[operator]](column, &#x27;&gt;&#x3D;&#x27;, &#x60;${constraint[&#x27;value&#x27;]}&#x60;);
+        } else if (constraint[&#x27;matchMode&#x27;] &#x3D;&#x3D;&#x3D; &#x27;dateAfter&#x27;) {
+          query[obj[operator]](rawDateQuery, &#x27;&gt;&#x27;, &#x60;${constraint[&#x27;value&#x27;]}&#x60;);
+        } else if (constraint[&#x27;matchMode&#x27;] &#x3D;&#x3D;&#x3D; &#x27;dateBefore&#x27;) {
+          query[obj[operator]](rawDateQuery, &#x27;&lt;&#x27;, &#x60;${constraint[&#x27;value&#x27;]}&#x60;);
+        } else if (constraint[&#x27;matchMode&#x27;] &#x3D;&#x3D;&#x3D; &#x27;dateIsNot&#x27;) {
+          query[obj[operator]](rawDateQuery, &#x27;!&#x3D;&#x27;, &#x60;${constraint[&#x27;value&#x27;]}&#x60;);
+        } else if (constraint[&#x27;matchMode&#x27;] &#x3D;&#x3D;&#x3D; &#x27;dateIs&#x27;) {
+          query[obj[operator]](rawDateQuery, &#x27;&#x3D;&#x27;, &#x60;${constraint[&#x27;value&#x27;]}&#x60;);
+        }
+      }
+    });
+  }
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="db"></a>
+                    <span class="name">
+                        <span ><b>db</b></span>
+                        <a href="#db"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new PrismaClient()</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="excelFileToJson"></a>
+                    <span class="name">
+                        <span ><b>excelFileToJson</b></span>
+                        <a href="#excelFileToJson"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>async (file: string) &#x3D;&gt; {
+  const workbook &#x3D; new Excel.Workbook();
+  const excelObj &#x3D; await workbook.xlsx.readFile(file);
+  const obj &#x3D; await new Promise((resolve, reject) &#x3D;&gt; {
+    const allSheet &#x3D; {};
+    excelObj.eachSheet((worksheet, id) &#x3D;&gt; {
+      const header &#x3D; [];
+      const data &#x3D; [];
+      worksheet.eachRow((row, rowNumber) &#x3D;&gt; {
+        const obj &#x3D; {};
+        row.eachCell((cell, colNumber) &#x3D;&gt; {
+          if (rowNumber &#x3D;&#x3D; 1) {
+            header.push(
+              cell.value
+                .toString()
+                .trim()
+                .replace(/ /g, &#x27;_&#x27;)
+                .replace(/\(.*\)/g, &#x27;&#x27;),
+            );
+          } else {
+            obj[header[colNumber - 1]] &#x3D; cell.value;
+          }
+        });
+        if (rowNumber !&#x3D; 1) data.push(obj);
+      });
+      allSheet[id - 1] &#x3D; data;
+    });
+    return resolve(allSheet);
+  });
+
+  return obj;
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="excelToJson"></a>
+                    <span class="name">
+                        <span ><b>excelToJson</b></span>
+                        <a href="#excelToJson"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>async (file: Buffer, specialColumn &#x3D; []) &#x3D;&gt; {
+  const workbook &#x3D; new Excel.Workbook();
+  const excelObj &#x3D; await workbook.xlsx.load(file);
+  const obj &#x3D; await new Promise((resolve, reject) &#x3D;&gt; {
+    const allSheet &#x3D; {};
+    let i &#x3D; 0;
+    excelObj.eachSheet((worksheet, id) &#x3D;&gt; {
+      const header &#x3D; [];
+      const data &#x3D; [];
+      worksheet.eachRow((row, rowNumber) &#x3D;&gt; {
+        const obj &#x3D; {};
+        row.eachCell((cell, colNumber) &#x3D;&gt; {
+          if (rowNumber &#x3D;&#x3D; 1) {
+            header.push(
+              cell.value
+                .toString()
+                .trim()
+                .replace(/ /g, &#x27;_&#x27;)
+                .replace(/\(.*\)/g, &#x27;&#x27;),
+            );
+          } else {
+            obj[header[colNumber - 1]] &#x3D; specialColumn.includes(
+              header[colNumber - 1],
+            )
+              ? cell.text
+              : cell.value;
+          }
+        });
+        if (rowNumber !&#x3D; 1) data.push(obj);
+      });
+      allSheet[i++] &#x3D; data;
+    });
+    return resolve(allSheet);
+  });
+
+  return obj;
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getLatestRefreshDate"></a>
+                    <span class="name">
+                        <span ><b>getLatestRefreshDate</b></span>
+                        <a href="#getLatestRefreshDate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>async (table) &#x3D;&gt; {
+  return db[table].findFirst({
+    orderBy: {
+      data_refresh_date_time: &#x27;desc&#x27;,
+    },
+    select: {
+      data_refresh_date_time: true,
+    },
+  });
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="paginate"></a>
+                    <span class="name">
+                        <span ><b>paginate</b></span>
+                        <a href="#paginate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(array, page_size, page_number) &#x3D;&gt; {
+  // human-readable page numbers usually start with 1, so we reduce 1 in the first argument
+  return array.slice((page_number - 1) * page_size, page_number * page_size);
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateCronProcess"></a>
+                    <span class="name">
+                        <span ><b>updateCronProcess</b></span>
+                        <a href="#updateCronProcess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>async (
+  process_id: number,
+  status &#x3D; &#x27;in-progress&#x27;,
+  isStart &#x3D; true,
+) &#x3D;&gt; {
+  // status &#x3D; pending, in-progress
+
+  try {
+    if (process_id) {
+      await db.processes.update({
+        where: {
+          id: Number(process_id),
+        },
+        data: {
+          ...(isStart
+            ? { start_time: moment().format() }
+            : { end_time: moment().format() }),
+          status: status,
+        },
+      });
+    }
+  } catch (e) {}
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/app.module.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ENV"></a>
+                    <span class="name">
+                        <span ><b>ENV</b></span>
+                        <a href="#ENV"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>process.env.NODE_ENV</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/migration/migration.service.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="exec"></a>
+                    <span class="name">
+                        <span ><b>exec</b></span>
+                        <a href="#exec"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>util.promisify(childProcess.exec)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>prisma/seed/group-seed/group_data.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="group_data"></a>
+                    <span class="name">
+                        <span ><b>group_data</b></span>
+                        <a href="#group_data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+  { id: 1, name: &#x27;DEV&#x27; },
+  { id: 2, name: &#x27;PROD&#x27; },
+] as group_data_type[]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>prisma/seed/in-built-job/in-built_data.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="in_built_data"></a>
+                    <span class="name">
+                        <span ><b>in_built_data</b></span>
+                        <a href="#in_built_data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+  {
+    id: 1,
+    name: &#x27;ebs&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ebs&#x27;,
+    frequency: &#x27;15 0 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 2,
+    name: &#x27;ec2&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ec2&#x27;,
+    frequency: &#x27;0 1 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 3,
+    name: &#x27;rds&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;rds&#x27;,
+    frequency: &#x27;15 1 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 4,
+    name: &#x27;redshift&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;redshift&#x27;,
+    frequency: &#x27;30 1 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 5,
+    name: &#x27;elb&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;elb&#x27;,
+    frequency: &#x27;30 1 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 6,
+    name: &#x27;s3&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;s3&#x27;,
+    frequency: &#x27;0 2 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 7,
+    name: &#x27;snapshot&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;snapshot&#x27;,
+    frequency: &#x27;15 2 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 8,
+    name: &#x27;ami&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ami&#x27;,
+    frequency: &#x27;45 2 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 9,
+    name: &#x27;cost_anomaly&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;cost_anomaly&#x27;,
+    frequency: &#x27;0 3 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;fetch-cost-anomaly-data&#x27;,
+  },
+  {
+    id: 10,
+    name: &#x27;new_relic&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;new-relic&#x27;,
+    frequency: &#x27;0 3 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;new-relic/fetch&#x27;,
+  },
+  {
+    id: 11,
+    name: &#x27;elasticache&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;elasticache&#x27;,
+    frequency: &#x27;15 3 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 12,
+    name: &#x27;elasticsearch&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;elasticsearch&#x27;,
+    frequency: &#x27;15 3 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 21,
+    name: &#x27;delete-action&#x27;,
+    provider: &#x27;delete-action&#x27;,
+    service: &#x27;delete-action&#x27;,
+    frequency: &#x27;*/20 * * * *&#x27;,
+    type: &#x27;DELETE-ACTION&#x27;,
+    url: &#x27;delete-action&#x27;,
+  },
+  {
+    id: 22,
+    name: &#x27;cost&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;cost&#x27;,
+    frequency: &#x27;30 3 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;fetch-pricing&#x27;,
+  },
+  {
+    id: 23,
+    name: &#x27;autopark_holidays&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;autopark&#x27;,
+    frequency: &#x27;0 * * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;autopark/check-holidays&#x27;,
+  },
+  {
+    id: 24,
+    name: &#x27;autopark_jobs&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;autopark&#x27;,
+    frequency: &#x27;30 * * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;autopark/run&#x27;,
+  },
+  {
+    id: 25,
+    name: &#x27;new_relic_entities&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;new-relic&#x27;,
+    frequency: &#x27;15 4 * * 0&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;new-relic/fetch-entities&#x27;,
+  },
+  {
+    id: 26,
+    name: &#x27;new_relic_accounts&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;new-relic&#x27;,
+    frequency: &#x27;0 4 * * 0&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;new-relic/fetch-accounts&#x27;,
+  },
+  {
+    id: 27,
+    name: &#x27;ci_instances&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ec2&#x27;,
+    frequency: &#x27;30 4 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;service-now/fetch-configuration-items&#x27;,
+  },
+  {
+    id: 28,
+    name: &#x27;ci_databases&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;rds&#x27;,
+    frequency: &#x27;30 6 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;service-now/fetch-configuration-items&#x27;,
+  },
+  {
+    id: 28,
+    name: &#x27;ebs-unattached-pull-sqs-lambda&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ebs-unattached&#x27;,
+    frequency: &#x27;*/15 * * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;volumes/unattached&#x27;,
+  },
+  {
+    id: 29,
+    name: &#x27;s3_multipart&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;s3&#x27;,
+    frequency: &#x27;0 5 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    url: &#x27;bucket/multipart&#x27;,
+  },
+] as in_built_data_type[]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/config/index.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="knex_config"></a>
+                    <span class="name">
+                        <span ><b>knex_config</b></span>
+                        <a href="#knex_config"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  config: {
+    client: &#x27;pg&#x27;,
+    useNullAsDefault: true,
+    connection: process.env.DATABASE_URL,
+    pool: { min: 150, max: 150 },
+    searchPath: [&#x27;public&#x27;],
+  },
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>prisma/seed/miscellanous-seed/miscellanous_data.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="miscellanous_data"></a>
+                    <span class="name">
+                        <span ><b>miscellanous_data</b></span>
+                        <a href="#miscellanous_data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+  { id: 1, type: &#x27;weekly_target&#x27;, value: &#x27;3000&#x27;, year: 2022 },
+] as miscellanous_data_type[]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/main.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="myFormat"></a>
+                    <span class="name">
+                        <span ><b>myFormat</b></span>
+                        <a href="#myFormat"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>({ timestamp, level, message }) &#x3D;&gt; {
+  const t &#x3D; new Date();
+  return &#x60;[${t}] -- ${level}: ${message}&#x60;;
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>prisma/seed.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="prisma"></a>
+                    <span class="name">
+                        <span ><b>prisma</b></span>
+                        <a href="#prisma"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new PrismaClient()</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>prisma/seed/custom-jobs/index.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="prisma"></a>
+                    <span class="name">
+                        <span ><b>prisma</b></span>
+                        <a href="#prisma"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new PrismaClient()</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>prisma/seed/group-seed/index.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="prisma"></a>
+                    <span class="name">
+                        <span ><b>prisma</b></span>
+                        <a href="#prisma"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new PrismaClient()</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>prisma/seed/miscellanous-seed/index.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="prisma"></a>
+                    <span class="name">
+                        <span ><b>prisma</b></span>
+                        <a href="#prisma"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new PrismaClient()</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>prisma/seed/in-built-job/index.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="prisma"></a>
+                    <span class="name">
+                        <span ><b>prisma</b></span>
+                        <a href="#prisma"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new PrismaClient()</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>prisma/seed/weekly-saving-seed/index.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="prisma"></a>
+                    <span class="name">
+                        <span ><b>prisma</b></span>
+                        <a href="#prisma"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new PrismaClient()</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>prisma/seed/provider-seed/index.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="prisma"></a>
+                    <span class="name">
+                        <span ><b>prisma</b></span>
+                        <a href="#prisma"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new PrismaClient()</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>data/test/processes/cron.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="processesFindAll"></a>
+                    <span class="name">
+                        <span ><b>processesFindAll</b></span>
+                        <a href="#processesFindAll"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+  {
+    id: 1,
+    type: &#x27;BUILT-IN&#x27;,
+    rule_id: null,
+    frequency: &#x27;15 0 * * *&#x27;,
+    date_time: &#x27;2022-11-02T18: 45: 00.000Z&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ebs&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 2,
+    type: &#x27;BUILT-IN&#x27;,
+    rule_id: null,
+    frequency: &#x27;0 1 * * *&#x27;,
+    date_time: &#x27;2022-11-02T19: 30: 00.000Z&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ec2&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 3,
+    type: &#x27;BUILT-IN&#x27;,
+    rule_id: null,
+    frequency: &#x27;15 1 * * *&#x27;,
+    date_time: &#x27;2022-11-02T19: 45: 00.000Z&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;rds&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 4,
+    type: &#x27;BUILT-IN&#x27;,
+    rule_id: null,
+    frequency: &#x27;30 1 * * *&#x27;,
+    date_time: &#x27;2022-11-02T20: 00: 00.000Z&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;redshift&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 5,
+    type: &#x27;BUILT-IN&#x27;,
+    rule_id: null,
+    frequency: &#x27;30 1 * * *&#x27;,
+    date_time: &#x27;2022-11-02T20: 00: 00.000Z&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;elb&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 6,
+    type: &#x27;BUILT-IN&#x27;,
+    rule_id: null,
+    frequency: &#x27;0 2 * * *&#x27;,
+    date_time: &#x27;2022-11-02T20: 30: 00.000Z&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;s3&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+  {
+    id: 7,
+    type: &#x27;BUILT-IN&#x27;,
+    rule_id: null,
+    frequency: &#x27;15 2 * * *&#x27;,
+    date_time: &#x27;2022-11-02T20: 45: 00.000Z&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;snapshot&#x27;,
+    url: &#x27;fetch-all&#x27;,
+  },
+]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>data/test/weekly_summary/index.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="provider"></a>
+                    <span class="name">
+                        <span ><b>provider</b></span>
+                        <a href="#provider"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[{ id: 1, name: &#x27;AWS&#x27; }]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="weekly_summary"></a>
+                    <span class="name">
+                        <span ><b>weekly_summary</b></span>
+                        <a href="#weekly_summary"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+  {
+    id: 1,
+    date_of_implementation: &#x27;2022-Sep-19&#x27;,
+    jira_number: &#x27;CA-2559&#x27;,
+    service_name: &#x27;EBS&#x27;,
+    task_owner: &#x27;paracso@paramount.com&#x27;,
+    cost_saved: 177.25,
+    provider: &#x27;aws&#x27;,
+  },
+]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>prisma/seed/provider-seed/provider_data.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="provider_data"></a>
+                    <span class="name">
+                        <span ><b>provider_data</b></span>
+                        <a href="#provider_data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+  { id: 1, name: &#x27;AWS&#x27; },
+  { id: 2, name: &#x27;AZURE&#x27; },
+  { id: 3, name: &#x27;GCP&#x27; },
+] as provider_data_type[]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>prisma/seed/custom-jobs/cron_data.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="rule_data"></a>
+                    <span class="name">
+                        <span ><b>rule_data</b></span>
+                        <a href="#rule_data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+  {
+    id: 13,
+    name: &#x27;rds_idle&#x27;,
+    frequency: &#x27;30 3 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;rds&#x27;,
+    url: &#x27;rule/scheduler&#x27;,
+    rule: {
+      name: &#x27;rds_idle&#x27;,
+      provider: &#x27;aws&#x27;,
+      service: &#x27;rds&#x27;,
+      condition: [
+        {
+          attribute: &#x27;db_con_mx_60&#x27;,
+          operator: &#x27;&#x3D;&#x27;,
+          cond: &#x27;AND&#x27;,
+          value: &#x27;0&#x27;,
+          preference: &#x27;1&#x27;,
+        },
+        {
+          attribute: &#x27;cpu_mx_60&#x27;,
+          operator: &#x27;&lt;&#x27;,
+          cond: &#x27;AND&#x27;,
+          value: &#x27;5&#x27;,
+          preference: &#x27;1&#x27;,
+        },
+      ],
+    },
+  },
+  {
+    id: 14,
+    name: &#x27;ebs_unattached&#x27;,
+    frequency: &#x27;30 3 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ebs&#x27;,
+    url: &#x27;rule/scheduler&#x27;,
+    rule: {
+      name: &#x27;ebs_unattached&#x27;,
+      provider: &#x27;aws&#x27;,
+      service: &#x27;ebs&#x27;,
+      condition: [
+        {
+          attribute: &#x27;application&#x27;,
+          operator: &#x27;&#x3D;&#x27;,
+          cond: &#x27;AND&#x27;,
+          value: &#x27;CloudEndure&#x27;,
+          preference: &#x27;0&#x27;,
+        },
+        {
+          attribute: &#x27;aging&#x27;,
+          operator: &#x27;&gt;&#x27;,
+          cond: &#x27;AND&#x27;,
+          value: &#x27;30&#x27;,
+          preference: &#x27;0&#x27;,
+        },
+        {
+          attribute: &#x27;application&#x27;,
+          operator: &#x27;&#x3D;&#x27;,
+          cond: &#x27;OR&#x27;,
+          value: &#x27;CloudEndureDR&#x27;,
+          preference: &#x27;1&#x27;,
+        },
+        {
+          attribute: &#x27;aging&#x27;,
+          operator: &#x27;&gt;&#x27;,
+          cond: &#x27;AND&#x27;,
+          value: &#x27;30&#x27;,
+          preference: &#x27;1&#x27;,
+        },
+      ],
+    },
+  },
+  {
+    id: 15,
+    name: &#x27;ebs_cost_account&#x27;,
+    select: &#x27;account_name, sum(cost_per_mo), count(volume_id)&#x27;,
+    group: &#x27;account_name&#x27;,
+    order: &#x27;sum(cost_per_mo) desc&#x27;,
+    frequency: &#x27;0 7 * * *&#x27;,
+    type: &#x27;BUILT-IN-LABEL&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ebs&#x27;,
+    url: &#x27;rule/scheduler&#x27;,
+    rule: {
+      name: &#x27;ebs_cost_account&#x27;,
+      provider: &#x27;aws&#x27;,
+      service: &#x27;ebs&#x27;,
+    },
+  },
+  {
+    id: 16,
+    name: &#x27;ebs_type_count&#x27;,
+    select: &#x27;account_name, count(volume_type), count(volume_id)&#x27;,
+    group: &#x27;account_name&#x27;,
+    frequency: &#x27;0 7 * * *&#x27;,
+    type: &#x27;BUILT-IN-LABEL&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ebs&#x27;,
+    url: &#x27;rule/scheduler&#x27;,
+    rule: {
+      name: &#x27;ebs_type_count&#x27;,
+      provider: &#x27;aws&#x27;,
+      service: &#x27;ebs&#x27;,
+    },
+  },
+  {
+    id: 17,
+    name: &#x27;ebs_available_volumes&#x27;,
+    select: &#x27;account_name, volume_state, sum(cost_per_mo)&#x27;,
+    group: &#x27;1, 2&#x27;,
+    having: &quot;volume_state &#x3D; &#x27;available&#x27;&quot;,
+    frequency: &#x27;0 7 * * *&#x27;,
+    type: &#x27;BUILT-IN-LABEL&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ebs&#x27;,
+    url: &#x27;rule/scheduler&#x27;,
+    rule: {
+      name: &#x27;ebs_available_volumes&#x27;,
+      provider: &#x27;aws&#x27;,
+      service: &#x27;ebs&#x27;,
+    },
+  },
+  {
+    id: 18,
+    name: &#x27;snapshot_old&#x27;,
+    frequency: &#x27;30 3 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;snapshot&#x27;,
+    url: &#x27;rule/scheduler&#x27;,
+    rule: {
+      name: &#x27;snapshot_old&#x27;,
+      provider: &#x27;aws&#x27;,
+      service: &#x27;snapshot&#x27;,
+      condition: [
+        {
+          attribute: &#x27;application&#x27;,
+          operator: &#x27;&#x3D;&#x27;,
+          cond: &#x27;OR&#x27;,
+          value: &#x27;CloudEndure&#x27;,
+          preference: &#x27;0&#x27;,
+        },
+        {
+          attribute: &#x27;application&#x27;,
+          operator: &#x27;&#x3D;&#x27;,
+          cond: &#x27;OR&#x27;,
+          value: &#x27;CloudEndureDR&#x27;,
+          preference: &#x27;0&#x27;,
+        },
+        {
+          attribute: &#x27;is_storage&#x27;,
+          operator: &#x27;&#x3D;&#x27;,
+          cond: &#x27;OR&#x27;,
+          value: &#x27;Commvault&#x27;,
+          preference: &#x27;0&#x27;,
+        },
+        {
+          attribute: &#x27;is_storage&#x27;,
+          operator: &#x27;&#x3D;&#x27;,
+          cond: &#x27;OR&#x27;,
+          value: &#x27;cohesity&#x27;,
+          preference: &#x27;0&#x27;,
+        },
+        {
+          attribute: &#x27;aging&#x27;,
+          operator: &#x27;&gt;&#x27;,
+          cond: &#x27;AND&#x27;,
+          value: &#x27;30&#x27;,
+          preference: &#x27;1&#x27;,
+        },
+        {
+          attribute: &#x27;application&#x27;,
+          operator: &#x27;!&#x3D;&#x27;,
+          cond: &#x27;OR&#x27;,
+          value: &#x27;CloudEndure&#x27;,
+          preference: &#x27;2&#x27;,
+        },
+        {
+          attribute: &#x27;application&#x27;,
+          operator: &#x27;!&#x3D;&#x27;,
+          cond: &#x27;AND&#x27;,
+          value: &#x27;CloudEndureDR&#x27;,
+          preference: &#x27;2&#x27;,
+        },
+        {
+          attribute: &#x27;is_storage&#x27;,
+          operator: &#x27;!&#x3D;&#x27;,
+          cond: &#x27;AND&#x27;,
+          value: &#x27;Commvault&#x27;,
+          preference: &#x27;2&#x27;,
+        },
+        {
+          attribute: &#x27;is_storage&#x27;,
+          operator: &#x27;!&#x3D;&#x27;,
+          cond: &#x27;AND&#x27;,
+          value: &#x27;cohesity&#x27;,
+          preference: &#x27;2&#x27;,
+        },
+        {
+          attribute: &#x27;aging&#x27;,
+          operator: &#x27;&gt;&#x27;,
+          cond: &#x27;AND&#x27;,
+          value: &#x27;90&#x27;,
+          preference: &#x27;3&#x27;,
+        },
+        {
+          attribute: &#x27;resource_lease_end_date&#x27;,
+          operator: &#x27;&lt;&#x3D;&#x27;,
+          cond: &#x27;OR&#x27;,
+          value: &#x27;CURRENT_DATE&#x27;,
+          preference: &#x27;4&#x27;,
+        },
+      ],
+    },
+  },
+  {
+    id: 19,
+    name: &#x27;outdated_snapshots&#x27;,
+    frequency: &#x27;30 3 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;snapshot&#x27;,
+    url: &#x27;rule/scheduler&#x27;,
+    rule: {
+      name: &#x27;outdated_snapshots&#x27;,
+      provider: &#x27;aws&#x27;,
+      service: &#x27;snapshot&#x27;,
+      condition: [
+        {
+          attribute: &#x27;aging&#x27;,
+          operator: &#x27;&gt;&#x27;,
+          cond: &#x27;AND&#x27;,
+          value: &#x27;30&#x27;,
+          preference: &#x27;1&#x27;,
+        },
+      ],
+    },
+  },
+  {
+    id: 20,
+    name: &#x27;unused_ami&#x27;,
+    frequency: &#x27;30 3 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ami&#x27;,
+    url: &#x27;rule/scheduler&#x27;,
+    rule: {
+      name: &#x27;unused_ami&#x27;,
+      provider: &#x27;aws&#x27;,
+      service: &#x27;ami&#x27;,
+      condition: [
+        {
+          attribute: &#x27;aging&#x27;,
+          operator: &#x27;&gt;&#x27;,
+          cond: &#x27;AND&#x27;,
+          value: &#x27;30&#x27;,
+          preference: &#x27;1&#x27;,
+        },
+      ],
+    },
+  },
+  {
+    id: 30,
+    name: &#x27;unattached_ebs&#x27;,
+    frequency: &#x27;0 5 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ebs&#x27;,
+    url: &#x27;rule/scheduler&#x27;,
+    rule: {
+      name: &#x27;unattached_ebs&#x27;,
+      provider: &#x27;aws&#x27;,
+      service: &#x27;ebs&#x27;,
+      condition: [
+        {
+          attribute: &#x27;volume_state&#x27;,
+          operator: &#x27;!&#x3D;&#x27;,
+          cond: &#x27;AND&#x27;,
+          value: &#x27;in-use&#x27;,
+          preference: &#x27;1&#x27;,
+        },
+      ],
+    },
+  },
+  {
+    id: 31,
+    name: &#x27;ebs_old&#x27;,
+    frequency: &#x27;0 5 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ebs&#x27;,
+    url: &#x27;rule/scheduler&#x27;,
+    rule: {
+      name: &#x27;ebs_old&#x27;,
+      provider: &#x27;aws&#x27;,
+      service: &#x27;ebs&#x27;,
+      condition: [
+        {
+          attribute: &#x27;volume_type&#x27;,
+          operator: &#x27;!&#x3D;&#x27;,
+          cond: &#x27;AND&#x27;,
+          value: &#x27;gp3&#x27;,
+          preference: &#x27;1&#x27;,
+        },
+      ],
+    },
+  },
+  {
+    id: 32,
+    name: &#x27;ebs_IO1/IO2&#x27;,
+    frequency: &#x27;0 5 * * *&#x27;,
+    type: &#x27;BUILT-IN&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ebs&#x27;,
+    url: &#x27;rule/scheduler&#x27;,
+    rule: {
+      name: &#x27;ebs_IO1/IO2&#x27;,
+      provider: &#x27;aws&#x27;,
+      service: &#x27;ebs&#x27;,
+      condition: [
+        {
+          attribute: &#x27;volume_type&#x27;,
+          operator: &#x27;&#x3D;&#x27;,
+          cond: &#x27;OR&#x27;,
+          value: &#x27;io1&#x27;,
+          preference: &#x27;1&#x27;,
+        },
+        {
+          attribute: &#x27;volume_type&#x27;,
+          operator: &#x27;&#x3D;&#x27;,
+          cond: &#x27;OR&#x27;,
+          value: &#x27;io2&#x27;,
+          preference: &#x27;1&#x27;,
+        },
+      ],
+    },
+  },
+  {
+    id: 33,
+    name: &#x27;ebs_count_and_cost_per_account&#x27;,
+    frequency: &#x27;0 9 * * *&#x27;,
+    select: &#x27;account_name, COUNT(account_name), SUM(cost_per_mo)&#x27;,
+    group: &#x27;account_name&#x27;,
+    type: &#x27;BUILT-IN-LABEL&#x27;,
+    provider: &#x27;aws&#x27;,
+    service: &#x27;ebs&#x27;,
+    url: &#x27;rule/scheduler&#x27;,
+    rule: {
+      name: &#x27;ebs_count_and_cost_per_account&#x27;,
+      provider: &#x27;aws&#x27;,
+      service: &#x27;ebs&#x27;,
+    },
+  },
+] as cron_data_type[]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>prisma/seed/weekly-saving-seed/weekly_savings_data.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="weekly_savings_data"></a>
+                    <span class="name">
+                        <span ><b>weekly_savings_data</b></span>
+                        <a href="#weekly_savings_data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+  {
+      &quot;id&quot;: 1,
+      &quot;date_of_implementation&quot;: &quot;2022-01-04&quot;,
+      &quot;jira_number&quot;: &quot;CA-1637&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 228.96,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 2,
+      &quot;date_of_implementation&quot;: &quot;2022-01-10&quot;,
+      &quot;jira_number&quot;: &quot;CA-1637&quot;,
+      &quot;service_name&quot;: &quot;Directory Service&quot;,
+      &quot;cost_saved&quot;: 178.42,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 3,
+      &quot;date_of_implementation&quot;: &quot;2022-01-10&quot;,
+      &quot;jira_number&quot;: &quot;CA-1637&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 108,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 4,
+      &quot;date_of_implementation&quot;: &quot;2022-01-10&quot;,
+      &quot;jira_number&quot;: &quot;CA-1637&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 60.91,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 5,
+      &quot;date_of_implementation&quot;: &quot;2022-01-10&quot;,
+      &quot;jira_number&quot;: &quot;CA-1637&quot;,
+      &quot;service_name&quot;: &quot;LoadBalancer&quot;,
+      &quot;cost_saved&quot;: 18,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 6,
+      &quot;date_of_implementation&quot;: &quot;2022-01-10&quot;,
+      &quot;jira_number&quot;: &quot;CA-1686&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1140.28,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 7,
+      &quot;date_of_implementation&quot;: &quot;2022-01-10&quot;,
+      &quot;jira_number&quot;: &quot;CA-1685&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 474.5,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 8,
+      &quot;date_of_implementation&quot;: &quot;2022-01-11&quot;,
+      &quot;jira_number&quot;: &quot;CA-1688&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 79.11,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 9,
+      &quot;date_of_implementation&quot;: &quot;2022-01-11&quot;,
+      &quot;jira_number&quot;: &quot;CA-1688&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 2484.43,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 10,
+      &quot;date_of_implementation&quot;: &quot;2022-01-17&quot;,
+      &quot;jira_number&quot;: &quot;CA-1688&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 216.6,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 11,
+      &quot;date_of_implementation&quot;: &quot;2022-01-20&quot;,
+      &quot;jira_number&quot;: &quot;CA-1688&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 270.72,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 12,
+      &quot;date_of_implementation&quot;: &quot;2022-01-24&quot;,
+      &quot;jira_number&quot;: &quot;CA-1688&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 1748.16,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 13,
+      &quot;date_of_implementation&quot;: &quot;2022-01-24&quot;,
+      &quot;jira_number&quot;: &quot;CA-1697&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 275,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 14,
+      &quot;date_of_implementation&quot;: &quot;2022-01-24&quot;,
+      &quot;jira_number&quot;: &quot;CA-1686&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 89.4,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 15,
+      &quot;date_of_implementation&quot;: &quot;2022-01-31&quot;,
+      &quot;jira_number&quot;: &quot;CA-1761&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 127.5,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 16,
+      &quot;date_of_implementation&quot;: &quot;2022-01-31&quot;,
+      &quot;jira_number&quot;: &quot;CA-1761&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 6640.75,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 17,
+      &quot;date_of_implementation&quot;: &quot;2022-02-04&quot;,
+      &quot;jira_number&quot;: &quot;CA-1686&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 80,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 18,
+      &quot;date_of_implementation&quot;: &quot;2022-02-05&quot;,
+      &quot;jira_number&quot;: &quot;CA-1686&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 230,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 19,
+      &quot;date_of_implementation&quot;: &quot;2022-02-07&quot;,
+      &quot;jira_number&quot;: &quot;CA-1686&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 5199.91,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 20,
+      &quot;date_of_implementation&quot;: &quot;2022-02-04&quot;,
+      &quot;jira_number&quot;: &quot;CA-1760&quot;,
+      &quot;service_name&quot;: &quot;Snapshots&quot;,
+      &quot;cost_saved&quot;: 171,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 21,
+      &quot;date_of_implementation&quot;: &quot;2022-02-14&quot;,
+      &quot;jira_number&quot;: &quot;CA1686&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1806.1,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 22,
+      &quot;date_of_implementation&quot;: &quot;2022-02-14&quot;,
+      &quot;jira_number&quot;: &quot;CA-1761&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 2222.96,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 23,
+      &quot;date_of_implementation&quot;: &quot;2022-02-21&quot;,
+      &quot;jira_number&quot;: &quot;CA-1686&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 203.15,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 24,
+      &quot;date_of_implementation&quot;: &quot;2022-02-21&quot;,
+      &quot;jira_number&quot;: &quot;CA-1697&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 6.1,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 25,
+      &quot;date_of_implementation&quot;: &quot;2022-02-21&quot;,
+      &quot;jira_number&quot;: &quot;CA-1685&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 268.5,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 26,
+      &quot;date_of_implementation&quot;: &quot;2022-02-21&quot;,
+      &quot;jira_number&quot;: &quot;CA-1874&quot;,
+      &quot;service_name&quot;: &quot;S3&quot;,
+      &quot;cost_saved&quot;: 3477.9,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 27,
+      &quot;date_of_implementation&quot;: &quot;2022-02-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1871&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 312.88,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 28,
+      &quot;date_of_implementation&quot;: &quot;2022-02-26&quot;,
+      &quot;jira_number&quot;: &quot;CA-1686&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 81.92,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 29,
+      &quot;date_of_implementation&quot;: &quot;2022-02-28&quot;,
+      &quot;jira_number&quot;: &quot;CA-1686&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1653.21,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 30,
+      &quot;date_of_implementation&quot;: &quot;2022-02-28&quot;,
+      &quot;jira_number&quot;: &quot;CA-1761&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 1329.96,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 31,
+      &quot;date_of_implementation&quot;: &quot;2022-02-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-1876&quot;,
+      &quot;service_name&quot;: &quot;Redshift&quot;,
+      &quot;cost_saved&quot;: 8985.6,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 32,
+      &quot;date_of_implementation&quot;: &quot;2022-02-28&quot;,
+      &quot;jira_number&quot;: &quot;CA-1877&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 323,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 33,
+      &quot;date_of_implementation&quot;: &quot;2022-02-28&quot;,
+      &quot;jira_number&quot;: &quot;CA-1873&quot;,
+      &quot;service_name&quot;: &quot;Snapshots&quot;,
+      &quot;cost_saved&quot;: 31000,
+      &quot;task_owner&quot;: &quot;Eugene&quot;
+  },
+  {
+      &quot;id&quot;: 34,
+      &quot;date_of_implementation&quot;: &quot;2022-02-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-1686&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 5926.4,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 35,
+      &quot;date_of_implementation&quot;: &quot;2022-03-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-1878&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 204.6,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 36,
+      &quot;date_of_implementation&quot;: &quot;2022-03-07&quot;,
+      &quot;jira_number&quot;: &quot;CA-1685&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1208.19,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 37,
+      &quot;date_of_implementation&quot;: &quot;2022-03-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-1686&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 4591,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 38,
+      &quot;date_of_implementation&quot;: &quot;2022-03-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-1884&quot;,
+      &quot;service_name&quot;: &quot;Redshift&quot;,
+      &quot;cost_saved&quot;: 8985.6,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 39,
+      &quot;date_of_implementation&quot;: &quot;2022-03-11&quot;,
+      &quot;jira_number&quot;: &quot;CA-1685&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1385,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 40,
+      &quot;date_of_implementation&quot;: &quot;2022-03-07&quot;,
+      &quot;jira_number&quot;: &quot;CA-1896&quot;,
+      &quot;service_name&quot;: &quot;Athena&quot;,
+      &quot;cost_saved&quot;: 10429.05,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 41,
+      &quot;date_of_implementation&quot;: &quot;2022-03-14&quot;,
+      &quot;jira_number&quot;: &quot;CA-1686&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 224.08,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 42,
+      &quot;date_of_implementation&quot;: &quot;2022-03-21&quot;,
+      &quot;jira_number&quot;: &quot;CA-1686&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 683.07,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 43,
+      &quot;date_of_implementation&quot;: &quot;2022-03-21&quot;,
+      &quot;jira_number&quot;: &quot;CA-2017&quot;,
+      &quot;service_name&quot;: &quot;Opensearch&quot;,
+      &quot;cost_saved&quot;: 939.42,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 44,
+      &quot;date_of_implementation&quot;: &quot;2022-03-24&quot;,
+      &quot;jira_number&quot;: &quot;CA-2017&quot;,
+      &quot;service_name&quot;: &quot;Opensearch&quot;,
+      &quot;cost_saved&quot;: 80.46,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 45,
+      &quot;date_of_implementation&quot;: &quot;2022-03-24&quot;,
+      &quot;jira_number&quot;: &quot;CA-1685&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 358.4,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 46,
+      &quot;date_of_implementation&quot;: &quot;2022-03-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-1697&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 11881.12,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 47,
+      &quot;date_of_implementation&quot;: &quot;2022-03-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-1685&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 927.8,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 48,
+      &quot;date_of_implementation&quot;: &quot;2022-04-04&quot;,
+      &quot;jira_number&quot;: &quot;CA-1697&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 1800.72,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 49,
+      &quot;date_of_implementation&quot;: &quot;2022-04-04&quot;,
+      &quot;jira_number&quot;: &quot;CA-1685&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1842.35,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 50,
+      &quot;date_of_implementation&quot;: &quot;2022-04-05&quot;,
+      &quot;jira_number&quot;: &quot;CA-1685&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1150,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 51,
+      &quot;date_of_implementation&quot;: &quot;2022-04-06&quot;,
+      &quot;jira_number&quot;: &quot;CA-1685&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1143,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 52,
+      &quot;date_of_implementation&quot;: &quot;2022-04-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-1697&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 6016.56,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 53,
+      &quot;date_of_implementation&quot;: &quot;2022-04-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-2047&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 230.56,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 54,
+      &quot;date_of_implementation&quot;: &quot;2022-04-13&quot;,
+      &quot;jira_number&quot;: &quot;CA-2047&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 847.76,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 55,
+      &quot;date_of_implementation&quot;: &quot;2022-04-19&quot;,
+      &quot;jira_number&quot;: &quot;CA-1697&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 7661.52,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 56,
+      &quot;date_of_implementation&quot;: &quot;2022-04-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1697&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 5185.44,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 57,
+      &quot;date_of_implementation&quot;: &quot;2022-04-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-1686&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 50.4,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 58,
+      &quot;date_of_implementation&quot;: &quot;2022-04-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-1697&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 48.96,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 59,
+      &quot;date_of_implementation&quot;: &quot;2022-05-02&quot;,
+      &quot;jira_number&quot;: &quot;CA-1697&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 5045.76,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 60,
+      &quot;date_of_implementation&quot;: &quot;2022-05-04&quot;,
+      &quot;jira_number&quot;: &quot;CA-1697&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 3384.72,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 61,
+      &quot;date_of_implementation&quot;: &quot;2022-04-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-1637&quot;,
+      &quot;service_name&quot;: &quot;S3&quot;,
+      &quot;cost_saved&quot;: 1055.7,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 62,
+      &quot;date_of_implementation&quot;: &quot;2022-05-16&quot;,
+      &quot;jira_number&quot;: &quot;CA-1685&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 296.55,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 63,
+      &quot;date_of_implementation&quot;: &quot;2021-01-11&quot;,
+      &quot;jira_number&quot;: &quot;CA-798&quot;,
+      &quot;service_name&quot;: &quot;Elasticache&quot;,
+      &quot;cost_saved&quot;: 388.8,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 64,
+      &quot;date_of_implementation&quot;: &quot;2021-01-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-943&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 87.84,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 65,
+      &quot;date_of_implementation&quot;: &quot;2021-01-13&quot;,
+      &quot;jira_number&quot;: &quot;CA-998&quot;,
+      &quot;service_name&quot;: &quot;Redshift&quot;,
+      &quot;cost_saved&quot;: 3772.59,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 66,
+      &quot;date_of_implementation&quot;: &quot;2021-01-14&quot;,
+      &quot;jira_number&quot;: &quot;CA-798&quot;,
+      &quot;service_name&quot;: &quot;Elasticache&quot;,
+      &quot;cost_saved&quot;: 1035.36,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 67,
+      &quot;date_of_implementation&quot;: &quot;2021-01-12&quot;,
+      &quot;jira_number&quot;: &quot;CA-819&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 35,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 68,
+      &quot;date_of_implementation&quot;: &quot;2021-01-20&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 511.92,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 69,
+      &quot;date_of_implementation&quot;: &quot;2021-01-20&quot;,
+      &quot;jira_number&quot;: &quot;CA-999&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 3606.44,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 70,
+      &quot;date_of_implementation&quot;: &quot;2021-01-20&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 2400,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 71,
+      &quot;date_of_implementation&quot;: &quot;2021-01-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-908&quot;,
+      &quot;service_name&quot;: &quot;Snapshot&quot;,
+      &quot;cost_saved&quot;: 5981,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 72,
+      &quot;date_of_implementation&quot;: &quot;2021-01-22&quot;,
+      &quot;jira_number&quot;: &quot;CA-932&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 228.09,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 73,
+      &quot;date_of_implementation&quot;: &quot;2021-01-27&quot;,
+      &quot;jira_number&quot;: &quot;CA-617&quot;,
+      &quot;service_name&quot;: &quot;Elasticache&quot;,
+      &quot;cost_saved&quot;: 1294.61,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 74,
+      &quot;date_of_implementation&quot;: &quot;2021-01-29&quot;,
+      &quot;jira_number&quot;: &quot;CA-1019&quot;,
+      &quot;service_name&quot;: &quot;Snapshot&quot;,
+      &quot;cost_saved&quot;: 208.78,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 75,
+      &quot;date_of_implementation&quot;: &quot;2021-01-27&quot;,
+      &quot;jira_number&quot;: &quot;CA-1025&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 3820.5,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 76,
+      &quot;date_of_implementation&quot;: &quot;2021-01-29&quot;,
+      &quot;jira_number&quot;: &quot;CA-1019&quot;,
+      &quot;service_name&quot;: &quot;Snapshot&quot;,
+      &quot;cost_saved&quot;: 500.72,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 77,
+      &quot;date_of_implementation&quot;: &quot;2021-02-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 15256.2,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 78,
+      &quot;date_of_implementation&quot;: &quot;2021-02-04&quot;,
+      &quot;jira_number&quot;: &quot;CA-1019&quot;,
+      &quot;service_name&quot;: &quot;Snapshot&quot;,
+      &quot;cost_saved&quot;: 3901.5,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 79,
+      &quot;date_of_implementation&quot;: &quot;2021-02-03&quot;,
+      &quot;jira_number&quot;: &quot;CA-999&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 1800.72,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 80,
+      &quot;date_of_implementation&quot;: &quot;2021-02-05&quot;,
+      &quot;jira_number&quot;: &quot;CA-999&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 1919.52,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 81,
+      &quot;date_of_implementation&quot;: &quot;2021-02-09&quot;,
+      &quot;jira_number&quot;: &quot;CA-999&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 1919.52,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 82,
+      &quot;date_of_implementation&quot;: &quot;2021-02-12&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 324.8,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 83,
+      &quot;date_of_implementation&quot;: &quot;2021-02-12&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 719.7,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 84,
+      &quot;date_of_implementation&quot;: &quot;2021-02-11&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 3801,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 85,
+      &quot;date_of_implementation&quot;: &quot;2021-02-15&quot;,
+      &quot;jira_number&quot;: &quot;CA-1029&quot;,
+      &quot;service_name&quot;: &quot;Elasticsearch&quot;,
+      &quot;cost_saved&quot;: 298.78,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 86,
+      &quot;date_of_implementation&quot;: &quot;2021-02-19&quot;,
+      &quot;jira_number&quot;: &quot;CA-1029&quot;,
+      &quot;service_name&quot;: &quot;Elasticsearch&quot;,
+      &quot;cost_saved&quot;: 652.32,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 87,
+      &quot;date_of_implementation&quot;: &quot;2021-02-22&quot;,
+      &quot;jira_number&quot;: &quot;CA-799&quot;,
+      &quot;service_name&quot;: &quot;Elasticache&quot;,
+      &quot;cost_saved&quot;: 335.88,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 88,
+      &quot;date_of_implementation&quot;: &quot;2021-02-22&quot;,
+      &quot;jira_number&quot;: &quot;CA-1075&quot;,
+      &quot;service_name&quot;: &quot;Snapshot&quot;,
+      &quot;cost_saved&quot;: 5318.1,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 89,
+      &quot;date_of_implementation&quot;: &quot;2021-02-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-943&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 48.96,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 90,
+      &quot;date_of_implementation&quot;: &quot;2021-02-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-799&quot;,
+      &quot;service_name&quot;: &quot;Elasticache&quot;,
+      &quot;cost_saved&quot;: 376.56,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 91,
+      &quot;date_of_implementation&quot;: &quot;2021-03-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-799&quot;,
+      &quot;service_name&quot;: &quot;Elasticache&quot;,
+      &quot;cost_saved&quot;: 63.36,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 92,
+      &quot;date_of_implementation&quot;: &quot;2021-03-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-819&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 1670.4,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 93,
+      &quot;date_of_implementation&quot;: &quot;2021-02-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1074&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 1603.2,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 94,
+      &quot;date_of_implementation&quot;: &quot;2021-03-05&quot;,
+      &quot;jira_number&quot;: &quot;CA-1029&quot;,
+      &quot;service_name&quot;: &quot;Elasticsearch&quot;,
+      &quot;cost_saved&quot;: 1304.64,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 95,
+      &quot;date_of_implementation&quot;: &quot;2021-03-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-1074&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 809.5,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 96,
+      &quot;date_of_implementation&quot;: &quot;2021-03-03&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 425.2,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 97,
+      &quot;date_of_implementation&quot;: &quot;2021-03-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 308.5,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 98,
+      &quot;date_of_implementation&quot;: &quot;2021-03-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 293.5,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 99,
+      &quot;date_of_implementation&quot;: &quot;2021-03-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-1088&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 210.96,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 100,
+      &quot;date_of_implementation&quot;: &quot;2021-03-11&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 1944,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 101,
+      &quot;date_of_implementation&quot;: &quot;2021-03-17&quot;,
+      &quot;jira_number&quot;: &quot;CA-1088&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 36.72,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 102,
+      &quot;date_of_implementation&quot;: &quot;2021-03-15&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 162.5,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 103,
+      &quot;date_of_implementation&quot;: &quot;2021-03-18&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 12224,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 104,
+      &quot;date_of_implementation&quot;: &quot;2021-03-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1025&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 3254.58,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 105,
+      &quot;date_of_implementation&quot;: &quot;2021-03-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 455.5,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 106,
+      &quot;date_of_implementation&quot;: &quot;2021-03-24&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 422.5,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 107,
+      &quot;date_of_implementation&quot;: &quot;2021-03-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 680.7,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 108,
+      &quot;date_of_implementation&quot;: &quot;2021-03-26&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 2937.6,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 109,
+      &quot;date_of_implementation&quot;: &quot;2021-03-24&quot;,
+      &quot;jira_number&quot;: &quot;CA-1114&quot;,
+      &quot;service_name&quot;: &quot;GCP&quot;,
+      &quot;cost_saved&quot;: 12392.19,
+      &quot;task_owner&quot;: &quot;Eugene&quot;
+  },
+  {
+      &quot;id&quot;: 110,
+      &quot;date_of_implementation&quot;: &quot;2021-03-30&quot;,
+      &quot;jira_number&quot;: &quot;CA-799&quot;,
+      &quot;service_name&quot;: &quot;Elasticache&quot;,
+      &quot;cost_saved&quot;: 1176.48,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 111,
+      &quot;date_of_implementation&quot;: &quot;2021-03-31&quot;,
+      &quot;jira_number&quot;: &quot;CA-1074&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 544,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 112,
+      &quot;date_of_implementation&quot;: &quot;2021-03-31&quot;,
+      &quot;jira_number&quot;: &quot;CA-798&quot;,
+      &quot;service_name&quot;: &quot;Elasticache&quot;,
+      &quot;cost_saved&quot;: 97.92,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 113,
+      &quot;date_of_implementation&quot;: &quot;2021-03-31&quot;,
+      &quot;jira_number&quot;: &quot;CA-1025&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1311.95,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 114,
+      &quot;date_of_implementation&quot;: &quot;2021-04-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-1025&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 386.3,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 115,
+      &quot;date_of_implementation&quot;: &quot;2021-04-09&quot;,
+      &quot;jira_number&quot;: &quot;CA-932&quot;,
+      &quot;service_name&quot;: &quot;FSx&quot;,
+      &quot;cost_saved&quot;: 734.7,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 116,
+      &quot;date_of_implementation&quot;: &quot;2021-04-09&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 3724.16,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 117,
+      &quot;date_of_implementation&quot;: &quot;2021-04-09&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;DocumentDB&quot;,
+      &quot;cost_saved&quot;: 779.04,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 118,
+      &quot;date_of_implementation&quot;: &quot;2021-04-14&quot;,
+      &quot;jira_number&quot;: &quot;CA-932&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 8969.8,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 119,
+      &quot;date_of_implementation&quot;: &quot;2021-04-17&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 161.28,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 120,
+      &quot;date_of_implementation&quot;: &quot;2021-04-19&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 135.72,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 121,
+      &quot;date_of_implementation&quot;: &quot;2021-04-19&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 22.36,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 122,
+      &quot;date_of_implementation&quot;: &quot;2021-04-20&quot;,
+      &quot;jira_number&quot;: &quot;CA-1144&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 163,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 123,
+      &quot;date_of_implementation&quot;: &quot;2021-04-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 458.64,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 124,
+      &quot;date_of_implementation&quot;: &quot;2021-04-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 35.92,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 125,
+      &quot;date_of_implementation&quot;: &quot;2021-04-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1144&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 50.12,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 126,
+      &quot;date_of_implementation&quot;: &quot;2021-04-26&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1200,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 127,
+      &quot;date_of_implementation&quot;: &quot;2021-04-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-1146&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 55.56,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 128,
+      &quot;date_of_implementation&quot;: &quot;2021-04-28&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 135.86,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 129,
+      &quot;date_of_implementation&quot;: &quot;2021-04-30&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 286,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 130,
+      &quot;date_of_implementation&quot;: &quot;2021-05-03&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 196.8,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 131,
+      &quot;date_of_implementation&quot;: &quot;2021-05-03&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 481.5,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 132,
+      &quot;date_of_implementation&quot;: &quot;2021-04-26&quot;,
+      &quot;jira_number&quot;: &quot;CA-1146&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 55.58,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 133,
+      &quot;date_of_implementation&quot;: &quot;2021-04-27&quot;,
+      &quot;jira_number&quot;: &quot;CA-1146&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 14.98,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 134,
+      &quot;date_of_implementation&quot;: &quot;2021-04-29&quot;,
+      &quot;jira_number&quot;: &quot;CA-1146&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 875.52,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 135,
+      &quot;date_of_implementation&quot;: &quot;2021-05-03&quot;,
+      &quot;jira_number&quot;: &quot;CA-1146&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 363.74,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 136,
+      &quot;date_of_implementation&quot;: &quot;2021-04-29&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 231.41,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 137,
+      &quot;date_of_implementation&quot;: &quot;2021-05-02&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 540.72,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 138,
+      &quot;date_of_implementation&quot;: &quot;2021-04-28&quot;,
+      &quot;jira_number&quot;: &quot;CA-1165&quot;,
+      &quot;service_name&quot;: &quot;ELB&quot;,
+      &quot;cost_saved&quot;: 36,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 139,
+      &quot;date_of_implementation&quot;: &quot;2021-05-10&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 3601.44,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 140,
+      &quot;date_of_implementation&quot;: &quot;2021-05-07&quot;,
+      &quot;jira_number&quot;: &quot;CA-1146&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 271,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 141,
+      &quot;date_of_implementation&quot;: &quot;2021-05-11&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 1681.92,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 142,
+      &quot;date_of_implementation&quot;: &quot;2021-05-11&quot;,
+      &quot;jira_number&quot;: &quot;CA-1364&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1453.09,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 143,
+      &quot;date_of_implementation&quot;: &quot;2021-05-13&quot;,
+      &quot;jira_number&quot;: &quot;CA-1364&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 17,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 144,
+      &quot;date_of_implementation&quot;: &quot;2021-05-14&quot;,
+      &quot;jira_number&quot;: &quot;CA-1364&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 489,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 145,
+      &quot;date_of_implementation&quot;: &quot;2021-05-13&quot;,
+      &quot;jira_number&quot;: &quot;CA-1146&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 13425.57,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 146,
+      &quot;date_of_implementation&quot;: &quot;2021-05-20&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 9763.5,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 147,
+      &quot;date_of_implementation&quot;: &quot;2021-05-18&quot;,
+      &quot;jira_number&quot;: &quot;CA-798&quot;,
+      &quot;service_name&quot;: &quot;Elasticache&quot;,
+      &quot;cost_saved&quot;: 1225.44,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 148,
+      &quot;date_of_implementation&quot;: &quot;2021-05-28&quot;,
+      &quot;jira_number&quot;: &quot;CA-1364&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 883.75,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 149,
+      &quot;date_of_implementation&quot;: &quot;2021-05-31&quot;,
+      &quot;jira_number&quot;: &quot;CA-1075&quot;,
+      &quot;service_name&quot;: &quot;Snapshot&quot;,
+      &quot;cost_saved&quot;: 536.4,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 150,
+      &quot;date_of_implementation&quot;: &quot;2021-06-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-1364&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 422.5,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 151,
+      &quot;date_of_implementation&quot;: &quot;2021-06-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-1144&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 275.24,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 152,
+      &quot;date_of_implementation&quot;: &quot;2021-05-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-1146&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 418.17,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 153,
+      &quot;date_of_implementation&quot;: &quot;2021-05-15&quot;,
+      &quot;jira_number&quot;: &quot;CA-1088&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 356.4,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 154,
+      &quot;date_of_implementation&quot;: &quot;2021-06-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1.9,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 155,
+      &quot;date_of_implementation&quot;: &quot;2021-06-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-1144&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 13.9,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 156,
+      &quot;date_of_implementation&quot;: &quot;2021-06-05&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 296,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 157,
+      &quot;date_of_implementation&quot;: &quot;2021-06-07&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 968.82,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 158,
+      &quot;date_of_implementation&quot;: &quot;2021-06-07&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 337.5,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 159,
+      &quot;date_of_implementation&quot;: &quot;2021-06-07&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 150,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 160,
+      &quot;date_of_implementation&quot;: &quot;2021-06-04&quot;,
+      &quot;jira_number&quot;: &quot;CA-1387&quot;,
+      &quot;service_name&quot;: &quot;Elasticache&quot;,
+      &quot;cost_saved&quot;: 296.64,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 161,
+      &quot;date_of_implementation&quot;: &quot;2021-06-03&quot;,
+      &quot;jira_number&quot;: &quot;CA-1146&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 51.55,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 162,
+      &quot;date_of_implementation&quot;: &quot;2021-06-07&quot;,
+      &quot;jira_number&quot;: &quot;CA-1146&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 523.55,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 163,
+      &quot;date_of_implementation&quot;: &quot;2021-06-09&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 18955.28,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 164,
+      &quot;date_of_implementation&quot;: &quot;2021-06-11&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 55.88,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 165,
+      &quot;date_of_implementation&quot;: &quot;2021-06-21&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1131,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 166,
+      &quot;date_of_implementation&quot;: &quot;2021-06-21&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 15064.13,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 167,
+      &quot;date_of_implementation&quot;: &quot;2021-06-16&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 14.24,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 168,
+      &quot;date_of_implementation&quot;: &quot;2021-06-17&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 208.8,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 169,
+      &quot;date_of_implementation&quot;: &quot;2021-06-18&quot;,
+      &quot;jira_number&quot;: &quot;CA-1412&quot;,
+      &quot;service_name&quot;: &quot;Snapshot&quot;,
+      &quot;cost_saved&quot;: 10441.2,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 170,
+      &quot;date_of_implementation&quot;: &quot;2021-06-21&quot;,
+      &quot;jira_number&quot;: &quot;CA-1387&quot;,
+      &quot;service_name&quot;: &quot;Elasticache&quot;,
+      &quot;cost_saved&quot;: 262.08,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 171,
+      &quot;date_of_implementation&quot;: &quot;2021-06-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1387&quot;,
+      &quot;service_name&quot;: &quot;Elasticache&quot;,
+      &quot;cost_saved&quot;: 1192.32,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 172,
+      &quot;date_of_implementation&quot;: &quot;2021-06-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-1428&quot;,
+      &quot;service_name&quot;: &quot;Snapshot&quot;,
+      &quot;cost_saved&quot;: 1139.1,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 173,
+      &quot;date_of_implementation&quot;: &quot;2021-06-22&quot;,
+      &quot;jira_number&quot;: &quot;CA-1144&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 25.8,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 174,
+      &quot;date_of_implementation&quot;: &quot;2021-06-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1144&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 1,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 175,
+      &quot;date_of_implementation&quot;: &quot;2021-06-28&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 14151.5,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 176,
+      &quot;date_of_implementation&quot;: &quot;2021-06-29&quot;,
+      &quot;jira_number&quot;: &quot;CA-1428&quot;,
+      &quot;service_name&quot;: &quot;Snapshot&quot;,
+      &quot;cost_saved&quot;: 3150,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 177,
+      &quot;date_of_implementation&quot;: &quot;2021-07-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-1428&quot;,
+      &quot;service_name&quot;: &quot;Snapshot&quot;,
+      &quot;cost_saved&quot;: 120,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 178,
+      &quot;date_of_implementation&quot;: &quot;2021-07-05&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1621.2,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 179,
+      &quot;date_of_implementation&quot;: &quot;2021-07-05&quot;,
+      &quot;jira_number&quot;: &quot;CA-1144&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 334.76,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 180,
+      &quot;date_of_implementation&quot;: &quot;2021-07-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-1383&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 60000,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 181,
+      &quot;date_of_implementation&quot;: &quot;2021-07-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-1445&quot;,
+      &quot;service_name&quot;: &quot;Cloudwatch&quot;,
+      &quot;cost_saved&quot;: 12200.4,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 182,
+      &quot;date_of_implementation&quot;: &quot;2021-07-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 183,
+      &quot;date_of_implementation&quot;: &quot;2021-07-09&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 610.56,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 184,
+      &quot;date_of_implementation&quot;: &quot;2021-07-12&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 414.84,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 185,
+      &quot;date_of_implementation&quot;: &quot;2021-07-12&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1167.66,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 186,
+      &quot;date_of_implementation&quot;: &quot;2021-07-12&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 299.52,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 187,
+      &quot;date_of_implementation&quot;: &quot;2021-07-13&quot;,
+      &quot;jira_number&quot;: &quot;CA-1459&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 8508.96,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 188,
+      &quot;date_of_implementation&quot;: &quot;2021-07-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 20.16,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 189,
+      &quot;date_of_implementation&quot;: &quot;2021-07-21&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 118.8,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 190,
+      &quot;date_of_implementation&quot;: &quot;2021-07-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 1051.92,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 191,
+      &quot;date_of_implementation&quot;: &quot;2021-07-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1459&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 2150.28,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 192,
+      &quot;date_of_implementation&quot;: &quot;2021-07-26&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 546.35,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 193,
+      &quot;date_of_implementation&quot;: &quot;2021-07-27&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 1114.4,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 194,
+      &quot;date_of_implementation&quot;: &quot;2021-07-30&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 102.4,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 195,
+      &quot;date_of_implementation&quot;: &quot;2021-07-30&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 2943.76,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 196,
+      &quot;date_of_implementation&quot;: &quot;2021-07-28&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 4458.24,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 197,
+      &quot;date_of_implementation&quot;: &quot;2021-08-09&quot;,
+      &quot;jira_number&quot;: &quot;CA-1497&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 4046.4,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 198,
+      &quot;date_of_implementation&quot;: &quot;2021-08-09&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 65,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 199,
+      &quot;date_of_implementation&quot;: &quot;2021-08-09&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1363.3,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 200,
+      &quot;date_of_implementation&quot;: &quot;2021-08-16&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 2113,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 201,
+      &quot;date_of_implementation&quot;: &quot;2021-08-09&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 78.3,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 202,
+      &quot;date_of_implementation&quot;: &quot;2021-08-11&quot;,
+      &quot;jira_number&quot;: &quot;CA-1499&quot;,
+      &quot;service_name&quot;: &quot;Directory Service&quot;,
+      &quot;cost_saved&quot;: 86.4,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 203,
+      &quot;date_of_implementation&quot;: &quot;2021-08-12&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 194.4,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 204,
+      &quot;date_of_implementation&quot;: &quot;2021-08-16&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1557.6,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 205,
+      &quot;date_of_implementation&quot;: &quot;2021-08-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-942&quot;,
+      &quot;service_name&quot;: &quot;FSx&quot;,
+      &quot;cost_saved&quot;: 232.2,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 206,
+      &quot;date_of_implementation&quot;: &quot;2021-08-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 149.53,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 207,
+      &quot;date_of_implementation&quot;: &quot;2021-08-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-799&quot;,
+      &quot;service_name&quot;: &quot;ElastiCache&quot;,
+      &quot;cost_saved&quot;: 208.08,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 208,
+      &quot;date_of_implementation&quot;: &quot;2021-08-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1088&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 153.36,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 209,
+      &quot;date_of_implementation&quot;: &quot;2021-08-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1447&quot;,
+      &quot;service_name&quot;: &quot;K8s microservices&quot;,
+      &quot;cost_saved&quot;: 30.72,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 210,
+      &quot;date_of_implementation&quot;: &quot;2021-08-30&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1235.26,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 211,
+      &quot;date_of_implementation&quot;: &quot;2021-08-30&quot;,
+      &quot;jira_number&quot;: &quot;MCS-9057&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 10,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 212,
+      &quot;date_of_implementation&quot;: &quot;2021-08-30&quot;,
+      &quot;jira_number&quot;: &quot;CA-1144&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 25,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 213,
+      &quot;date_of_implementation&quot;: &quot;2021-08-24&quot;,
+      &quot;jira_number&quot;: &quot;CA-942&quot;,
+      &quot;service_name&quot;: &quot;FSx&quot;,
+      &quot;cost_saved&quot;: 201.6,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 214,
+      &quot;date_of_implementation&quot;: &quot;2021-08-27&quot;,
+      &quot;jira_number&quot;: &quot;CA-942&quot;,
+      &quot;service_name&quot;: &quot;FSx&quot;,
+      &quot;cost_saved&quot;: 2347.2,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 215,
+      &quot;date_of_implementation&quot;: &quot;2021-08-26&quot;,
+      &quot;jira_number&quot;: &quot;CA-1364&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 6378.6,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 216,
+      &quot;date_of_implementation&quot;: &quot;2021-09-03&quot;,
+      &quot;jira_number&quot;: &quot;CA-1534&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 3404.25,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 217,
+      &quot;date_of_implementation&quot;: &quot;2021-09-03&quot;,
+      &quot;jira_number&quot;: &quot;CA-1447&quot;,
+      &quot;service_name&quot;: &quot;K8s microservices&quot;,
+      &quot;cost_saved&quot;: 10.41,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 218,
+      &quot;date_of_implementation&quot;: &quot;2021-09-03&quot;,
+      &quot;jira_number&quot;: &quot;CA-1520&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 168.48,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 219,
+      &quot;date_of_implementation&quot;: &quot;2021-09-09&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 547.02,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 220,
+      &quot;date_of_implementation&quot;: &quot;2021-09-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-1364&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 2553.12,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 221,
+      &quot;date_of_implementation&quot;: &quot;2021-09-07&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 13.3,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 222,
+      &quot;date_of_implementation&quot;: &quot;2021-09-13&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 52.56,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 223,
+      &quot;date_of_implementation&quot;: &quot;2021-09-15&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 3653.83,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 224,
+      &quot;date_of_implementation&quot;: &quot;2021-09-16&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 18.71,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 225,
+      &quot;date_of_implementation&quot;: &quot;2021-09-20&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 299.52,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 226,
+      &quot;date_of_implementation&quot;: &quot;2021-09-27&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 995.04,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 227,
+      &quot;date_of_implementation&quot;: &quot;2021-09-21&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 66.56,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 228,
+      &quot;date_of_implementation&quot;: &quot;2021-09-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1392&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 67.2,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 229,
+      &quot;date_of_implementation&quot;: &quot;2021-09-24&quot;,
+      &quot;jira_number&quot;: &quot;CA-1556&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 815.93,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 230,
+      &quot;date_of_implementation&quot;: &quot;2021-09-24&quot;,
+      &quot;jira_number&quot;: &quot;CA-1555&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 80,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 231,
+      &quot;date_of_implementation&quot;: &quot;2021-09-24&quot;,
+      &quot;jira_number&quot;: &quot;CA-1447&quot;,
+      &quot;service_name&quot;: &quot;K8s microservices&quot;,
+      &quot;cost_saved&quot;: 46.22,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 232,
+      &quot;date_of_implementation&quot;: &quot;2021-09-23&quot;,
+      &quot;jira_number&quot;: &quot;CA-1447&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 451.54,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 233,
+      &quot;date_of_implementation&quot;: &quot;2021-10-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 259.92,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 234,
+      &quot;date_of_implementation&quot;: &quot;2021-10-04&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 339.98,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 235,
+      &quot;date_of_implementation&quot;: &quot;2021-10-04&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 57.8,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 236,
+      &quot;date_of_implementation&quot;: &quot;2021-10-04&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 2188.8,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 237,
+      &quot;date_of_implementation&quot;: &quot;2021-09-28&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 675,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 238,
+      &quot;date_of_implementation&quot;: &quot;2021-10-04&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 529.92,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 239,
+      &quot;date_of_implementation&quot;: &quot;2021-10-04&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 948.11,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 240,
+      &quot;date_of_implementation&quot;: &quot;2021-10-04&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 472.89,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 241,
+      &quot;date_of_implementation&quot;: &quot;2021-10-07&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 13.5,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 242,
+      &quot;date_of_implementation&quot;: &quot;2021-10-11&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 2394.62,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 243,
+      &quot;date_of_implementation&quot;: &quot;2021-10-11&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 1426,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 244,
+      &quot;date_of_implementation&quot;: &quot;2021-10-05&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 46.8,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 245,
+      &quot;date_of_implementation&quot;: &quot;2021-10-13&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 357.5,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 246,
+      &quot;date_of_implementation&quot;: &quot;2021-09-30&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 100.8,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 247,
+      &quot;date_of_implementation&quot;: &quot;2021-10-13&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 405.31,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 248,
+      &quot;date_of_implementation&quot;: &quot;2021-10-18&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 1035.55,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 249,
+      &quot;date_of_implementation&quot;: &quot;2021-10-22&quot;,
+      &quot;jira_number&quot;: &quot;CA-819&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 2400.16,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 250,
+      &quot;date_of_implementation&quot;: &quot;2021-10-22&quot;,
+      &quot;jira_number&quot;: &quot;CA-1364&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 519,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 251,
+      &quot;date_of_implementation&quot;: &quot;2021-10-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 2970.98,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 252,
+      &quot;date_of_implementation&quot;: &quot;2021-10-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 210.48,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 253,
+      &quot;date_of_implementation&quot;: &quot;2021-10-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-1364&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 60.87,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 254,
+      &quot;date_of_implementation&quot;: &quot;2021-10-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 208.8,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 255,
+      &quot;date_of_implementation&quot;: &quot;2021-10-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-1447&quot;,
+      &quot;service_name&quot;: &quot;K8s microservices&quot;,
+      &quot;cost_saved&quot;: 93.63,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 256,
+      &quot;date_of_implementation&quot;: &quot;2021-10-25&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 1701.1,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 257,
+      &quot;date_of_implementation&quot;: &quot;2021-11-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 727.92,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 258,
+      &quot;date_of_implementation&quot;: &quot;2021-11-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-1364&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 263.6,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 259,
+      &quot;date_of_implementation&quot;: &quot;2021-11-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 979.95,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 260,
+      &quot;date_of_implementation&quot;: &quot;2021-11-01&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 228.8,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 261,
+      &quot;date_of_implementation&quot;: &quot;2021-11-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 662,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 262,
+      &quot;date_of_implementation&quot;: &quot;2021-11-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 2489,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 263,
+      &quot;date_of_implementation&quot;: &quot;2021-11-19&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 2293.2,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 264,
+      &quot;date_of_implementation&quot;: &quot;2021-11-22&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 2809.38,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 265,
+      &quot;date_of_implementation&quot;: &quot;2021-11-24&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 121,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 266,
+      &quot;date_of_implementation&quot;: &quot;2021-11-29&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1942.07,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 267,
+      &quot;date_of_implementation&quot;: &quot;2021-11-29&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 92.8,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 268,
+      &quot;date_of_implementation&quot;: &quot;2021-11-24&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 1991.25,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 269,
+      &quot;date_of_implementation&quot;: &quot;2021-12-02&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 2285.28,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 270,
+      &quot;date_of_implementation&quot;: &quot;2021-12-06&quot;,
+      &quot;jira_number&quot;: &quot;CA-1603&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1897.88,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 271,
+      &quot;date_of_implementation&quot;: &quot;2021-12-02&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 1.9,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 272,
+      &quot;date_of_implementation&quot;: &quot;2021-12-02&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 12.27,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 273,
+      &quot;date_of_implementation&quot;: &quot;2021-12-02&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 59.15,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 274,
+      &quot;date_of_implementation&quot;: &quot;2021-12-03&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 2668.25,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 275,
+      &quot;date_of_implementation&quot;: &quot;2021-12-03&quot;,
+      &quot;jira_number&quot;: &quot;CA-1364&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 501.98,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 276,
+      &quot;date_of_implementation&quot;: &quot;2021-12-07&quot;,
+      &quot;jira_number&quot;: &quot;CA-1603&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 3255.34,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 277,
+      &quot;date_of_implementation&quot;: &quot;2021-12-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-1603&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 2001.6,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 278,
+      &quot;date_of_implementation&quot;: &quot;2021-12-09&quot;,
+      &quot;jira_number&quot;: &quot;CA-1499&quot;,
+      &quot;service_name&quot;: &quot;Directory Service&quot;,
+      &quot;cost_saved&quot;: 676.8,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 279,
+      &quot;date_of_implementation&quot;: &quot;2021-12-09&quot;,
+      &quot;jira_number&quot;: &quot;CA-973&quot;,
+      &quot;service_name&quot;: &quot;EC2&quot;,
+      &quot;cost_saved&quot;: 1211.04,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 280,
+      &quot;date_of_implementation&quot;: &quot;2021-12-08&quot;,
+      &quot;jira_number&quot;: &quot;CA-1603&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 9440.04,
+      &quot;task_owner&quot;: &quot;Jidnesh&quot;
+  },
+  {
+      &quot;id&quot;: 281,
+      &quot;date_of_implementation&quot;: &quot;2021-12-16&quot;,
+      &quot;jira_number&quot;: &quot;CA-944&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 966,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 282,
+      &quot;date_of_implementation&quot;: &quot;2021-12-17&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 864.14,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 283,
+      &quot;date_of_implementation&quot;: &quot;2021-12-15&quot;,
+      &quot;jira_number&quot;: &quot;CA-1636&quot;,
+      &quot;service_name&quot;: &quot;Sandbox&quot;,
+      &quot;cost_saved&quot;: 444.79,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 284,
+      &quot;date_of_implementation&quot;: &quot;2021-12-17&quot;,
+      &quot;jira_number&quot;: &quot;CA-1001&quot;,
+      &quot;service_name&quot;: &quot;EBS&quot;,
+      &quot;cost_saved&quot;: 58.12,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  },
+  {
+      &quot;id&quot;: 285,
+      &quot;date_of_implementation&quot;: &quot;2021-12-17&quot;,
+      &quot;jira_number&quot;: &quot;CA-1136&quot;,
+      &quot;service_name&quot;: &quot;RDS&quot;,
+      &quot;cost_saved&quot;: 4255.92,
+      &quot;task_owner&quot;: &quot;Logesh&quot;
+  }
+] as weekly_savings_data_type[]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'miscellaneous-variables';
+            var COMPODOC_CURRENT_PAGE_URL = 'variables.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

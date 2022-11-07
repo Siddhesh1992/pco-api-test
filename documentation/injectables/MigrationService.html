@@ -1,0 +1,1354 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>pco-api documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">pco-api documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content injectable">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Injectables</li>
+  <li >MigrationService</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/migration/migration.service.ts</code>
+        </p>
+
+
+
+
+
+            <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#clearLogs" >clearLogs</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#cloudTrials" >cloudTrials</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#dbSeed" >dbSeed</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#deleteCron" >deleteCron</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#deleteWeeklySummaryData" >deleteWeeklySummaryData</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#getCron" >getCron</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#getLabel" >getLabel</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#getLogs" >getLogs</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#getRule" >getRule</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#insertMany" >insertMany</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#queryProcess" >queryProcess</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#queryRuleEngine" >queryRuleEngine</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#resetCronStatus" >resetCronStatus</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#ruleColumn" >ruleColumn</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#update_table" >update_table</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(db: <a href="../injectables/DatabaseService.html" target="_self">DatabaseService</a>, query: Knex, moduleRef: ModuleRef)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/migration/migration.service.ts:26</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>db</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/DatabaseService.html" target="_self" >DatabaseService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>query</td>
+                                                  
+                                                        <td>
+                                                                    <code>Knex</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>moduleRef</td>
+                                                  
+                                                        <td>
+                                                                    <code>ModuleRef</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+            <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="clearLogs"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>clearLogs</b></span>
+                        <a href="#clearLogs"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>clearLogs()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="169"
+                            class="link-to-prism">src/migration/migration.service.ts:169</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="cloudTrials"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>cloudTrials</b></span>
+                        <a href="#cloudTrials"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>cloudTrials()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="239"
+                            class="link-to-prism">src/migration/migration.service.ts:239</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>unknown</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dbSeed"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>dbSeed</b></span>
+                        <a href="#dbSeed"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>dbSeed()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="200"
+                            class="link-to-prism">src/migration/migration.service.ts:200</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteCron"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>deleteCron</b></span>
+                        <a href="#deleteCron"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>deleteCron()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="206"
+                            class="link-to-prism">src/migration/migration.service.ts:206</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteWeeklySummaryData"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>deleteWeeklySummaryData</b></span>
+                        <a href="#deleteWeeklySummaryData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>deleteWeeklySummaryData()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="33"
+                            class="link-to-prism">src/migration/migration.service.ts:33</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getCron"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>getCron</b></span>
+                        <a href="#getCron"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getCron()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="182"
+                            class="link-to-prism">src/migration/migration.service.ts:182</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>unknown</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getLabel"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>getLabel</b></span>
+                        <a href="#getLabel"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getLabel()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="159"
+                            class="link-to-prism">src/migration/migration.service.ts:159</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>unknown</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getLogs"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>getLogs</b></span>
+                        <a href="#getLogs"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getLogs(query: literal type)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="163"
+                            class="link-to-prism">src/migration/migration.service.ts:163</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>query</td>
+                                    <td>
+                                            <code>literal type</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>unknown</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRule"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>getRule</b></span>
+                        <a href="#getRule"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getRule(rule: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="49"
+                            class="link-to-prism">src/migration/migration.service.ts:49</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>rule</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>unknown</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="insertMany"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>insertMany</b></span>
+                        <a href="#insertMany"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>insertMany(obj: [])</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="40"
+                            class="link-to-prism">src/migration/migration.service.ts:40</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>obj</td>
+                                    <td>
+                                            <code>[]</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="queryProcess"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>queryProcess</b></span>
+                        <a href="#queryProcess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>queryProcess()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="218"
+                            class="link-to-prism">src/migration/migration.service.ts:218</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>unknown</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="queryRuleEngine"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>queryRuleEngine</b></span>
+                        <a href="#queryRuleEngine"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>queryRuleEngine(type)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="77"
+                            class="link-to-prism">src/migration/migration.service.ts:77</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>type</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>unknown</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="resetCronStatus"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>resetCronStatus</b></span>
+                        <a href="#resetCronStatus"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>resetCronStatus()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="190"
+                            class="link-to-prism">src/migration/migration.service.ts:190</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>unknown</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ruleColumn"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>ruleColumn</b></span>
+                        <a href="#ruleColumn"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>ruleColumn()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="151"
+                            class="link-to-prism">src/migration/migration.service.ts:151</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>unknown</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="update_table"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>update_table</b></span>
+                        <a href="#update_table"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>update_table(query: literal type)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="225"
+                            class="link-to-prism">src/migration/migration.service.ts:225</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>query</td>
+                                    <td>
+                                            <code>literal type</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>unknown</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Injectable } from &#x27;@nestjs/common&#x27;;
+import * as util from &#x27;util&#x27;;
+import * as childProcess from &#x27;child_process&#x27;;
+import { DatabaseService } from &#x27;../database/database.service&#x27;;
+import { InjectKnex, Knex } from &#x27;nestjs-knex&#x27;;
+import { groupBy, omit } from &#x27;lodash&#x27;;
+import { readFileSync, unlink, writeFile } from &#x27;fs&#x27;;
+import {
+  CloudWatchClient,
+  GetMetricDataCommand,
+  GetMetricDataCommandInput,
+} from &#x27;@aws-sdk/client-cloudwatch&#x27;; // ES Modules import
+import {
+  CloudTrailClient,
+  AddTagsCommand,
+  LookupEventsCommand,
+} from &#x27;@aws-sdk/client-cloudtrail&#x27;;
+import { forEach } from &#x27;lodash&#x27;;
+// const { CloudWatchClient, GetMetricDataCommand } &#x3D; require(&quot;@aws-sdk/client-cloudwatch&quot;); // CommonJS import
+
+import * as moment from &#x27;moment&#x27;;
+import { ModuleRef } from &#x27;@nestjs/core&#x27;;
+const exec &#x3D; util.promisify(childProcess.exec);
+
+@Injectable()
+export class MigrationService {
+  constructor(
+    private readonly db: DatabaseService,
+    @InjectKnex() private readonly query: Knex,
+    private readonly moduleRef: ModuleRef,
+  ) {}
+
+  async deleteWeeklySummaryData() {
+    await this.db.weekly_tracker.deleteMany();
+    try {
+      await this.db.$queryRaw&#x60;TRUNCATE weekly_tracker RESTART IDENTITY;&#x60;;
+    } catch (e) {}
+  }
+
+  async insertMany(obj: []) {
+    await this.db.weekly_tracker.createMany({
+      data: obj,
+    });
+    try {
+      await this.db.$queryRaw&#x60;TRUNCATE weekly_tracker RESTART IDENTITY;&#x60;;
+    } catch (e) {}
+  }
+
+  async getRule(rule: string) {
+    return this.db.rule.findFirst({
+      where: {
+        name: rule,
+      },
+      select: {
+        provider: true,
+        select: true,
+        group: true,
+        order: true,
+        service: true,
+        condition: {
+          select: {
+            id: true,
+            attribute: true,
+            operator: true,
+            value: true,
+            cond: true,
+            preference: true,
+          },
+          orderBy: {
+            preference: &#x27;asc&#x27;,
+          },
+        },
+      },
+    });
+  }
+
+  async queryRuleEngine(type) {
+    const rules &#x3D; await this.getRule(type);
+    const table &#x3D; &#x60;${rules.provider}_${rules.service}&#x60;;
+
+    const queryBuilder &#x3D; this.query.table(table);
+    const groupedCondtion &#x3D; groupBy(rules.condition, &#x27;preference&#x27;);
+
+    for (const condition in groupedCondtion) {
+      const rows &#x3D; groupedCondtion[condition];
+      console.log(rows, &#x27;rows&#x27;);
+      if (rows.length &#x3D;&#x3D; 1) {
+        for (const row of rows) {
+          if (row.cond &#x3D;&#x3D; &#x27;AND&#x27;) {
+            queryBuilder.where(row.attribute, row.operator, row.value);
+          } else if (row.cond &#x3D;&#x3D; &#x27;OR&#x27;) {
+            queryBuilder.orWhere(row.attribute, row.operator, row.value);
+          }
+        }
+      } else {
+        if (rows[0].cond &#x3D;&#x3D; &#x27;AND&#x27;) {
+          queryBuilder.andWhere((query) &#x3D;&gt; {
+            for (const groupRow of rows) {
+              if (groupRow.cond &#x3D;&#x3D; &#x27;AND&#x27;) {
+                query.where(
+                  groupRow.attribute,
+                  groupRow.operator,
+                  groupRow.value,
+                );
+              } else if (groupRow.cond &#x3D;&#x3D; &#x27;OR&#x27;) {
+                query.orWhere(
+                  groupRow.attribute,
+                  groupRow.operator,
+                  groupRow.value,
+                );
+              }
+            }
+          });
+        } else if (rows[0].cond &#x3D;&#x3D; &#x27;OR&#x27;) {
+          queryBuilder.orWhere((query) &#x3D;&gt; {
+            for (const groupRow of rows) {
+              if (groupRow.cond &#x3D;&#x3D; &#x27;AND&#x27;) {
+                query.where(
+                  groupRow.attribute,
+                  groupRow.operator,
+                  groupRow.value,
+                );
+              } else if (groupRow.cond &#x3D;&#x3D; &#x27;OR&#x27;) {
+                query.orWhere(
+                  groupRow.attribute,
+                  groupRow.operator,
+                  groupRow.value,
+                );
+              }
+            }
+          });
+        }
+      }
+    }
+    console.log(rules[&#x27;select&#x27;], &#x27;rules&#x27;);
+    if (rules[&#x27;select&#x27;]) {
+      queryBuilder.select(this.query.raw(rules[&#x27;select&#x27;]));
+    }
+
+    if (rules.group) {
+      queryBuilder.groupByRaw(rules.group);
+    }
+
+    if (rules.order) {
+      queryBuilder.orderByRaw(rules.order);
+    }
+    console.log(queryBuilder.toString());
+    return { query: queryBuilder.toString(), data: await queryBuilder };
+  }
+
+  async ruleColumn() {
+    const columns &#x3D; await this.query.table(&#x27;aws_rds&#x27;).first();
+
+    return Object.keys(
+      omit(columns, [&#x27;id&#x27;, &#x27;deleted&#x27;, &#x27;created_at&#x27;, &#x27;updated_at&#x27;]),
+    );
+  }
+
+  async getLabel() {
+    return this.db.label.findMany();
+  }
+
+  async getLogs(query: { type: string }) {
+    const { type } &#x3D; query;
+    console.log(&#x60;./${type ? type : &#x27;error&#x27;}.log&#x60;);
+    return readFileSync(&#x60;./${type ? type : &#x27;error&#x27;}.log&#x60;, &#x27;utf8&#x27;);
+  }
+
+  async clearLogs() {
+    try {
+      writeFile(&#x27;./combined.log&#x27;, &#x27;&#x27;, function () {
+        console.log(&#x27;done&#x27;);
+      });
+      writeFile(&#x27;./error.log&#x27;, &#x27;&#x27;, function () {
+        console.log(&#x27;done&#x27;);
+      });
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
+  async getCron() {
+    return this.db.processes.findMany({
+      orderBy: {
+        id: &#x27;asc&#x27;,
+      },
+    });
+  }
+
+  async resetCronStatus() {
+    try {
+      return this.db.processes.updateMany({
+        data: {
+          status: &#x27;pending&#x27;,
+        },
+      });
+    } catch (e) {}
+  }
+
+  async dbSeed() {
+    try {
+      const { stdout, stderr } &#x3D; await exec(&#x27;npx prisma db seed&#x27;);
+    } catch (e) {}
+  }
+
+  async deleteCron() {
+    try {
+      await this.db.rule_condition.deleteMany();
+      await this.db.rule.deleteMany();
+      await this.db.$queryRaw&#x60;TRUNCATE processes RESTART IDENTITY cascade&#x60;;
+      await this.db.$queryRaw&#x60;TRUNCATE rule_condition RESTART IDENTITY cascade&#x60;;
+      await this.db.$queryRaw&#x60;TRUNCATE rule RESTART IDENTITY cascade&#x60;;
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
+  async queryProcess() {
+    const cronProcess &#x3D; await this.query(&#x27;processes&#x27;)
+      .select(this.query.raw(&#x60;Max(id) as max_id&#x60;))
+      .first();
+    return cronProcess;
+  }
+
+  async update_table(query: { process_id: string }) {
+    const { process_id } &#x3D; query;
+    console.log(moment().subtract(1, &#x27;days&#x27;).toDate(), &#x27;moment&#x27;);
+    return this.db.processes.update({
+      where: {
+        id: Number(process_id),
+      },
+      data: {
+        date_time: moment().subtract(2, &#x27;days&#x27;).toDate(),
+        status: &#x27;pending&#x27;,
+      },
+    });
+  }
+
+  async cloudTrials() {
+    console.log(moment().subtract(1, &#x27;h&#x27;).toDate());
+    try {
+      const options &#x3D; {
+        LookupAttributes: [
+          {
+            AttributeKey: &#x27;EventName&#x27;,
+            AttributeValue: &#x27;DetachVolume&#x27;,
+          },
+        ],
+        StartTime: moment().subtract(3, &#x27;h&#x27;).toDate(),
+        EndTime: moment().toDate(),
+        // EventCategory: &#x27;insight&#x27;,
+        MaxResults: 50,
+      };
+      let account;
+      const region &#x3D; &#x27;us-east-1&#x27;;
+      const accounts &#x3D; JSON.parse(process.env.AWS_ACCOUNTS);
+
+      //get account
+      forEach(accounts, (accountNumber, alias) &#x3D;&gt; {
+        if (alias &#x3D;&#x3D; &#x27;viacbs-app-dev&#x27;) {
+          account &#x3D; { alias, accountNumber };
+          return false;
+        }
+      });
+
+      if (!account) {
+        return {
+          data: null,
+          error: &#x60;Account not found for ${JSON.stringify(account)}&#x60;,
+        };
+      }
+
+      const response &#x3D; await this.moduleRef
+        .get(&#x60;appService&#x60;, { strict: false })
+        .assumeRole(account);
+
+      if (!response) {
+        return {
+          data: null,
+          error: &#x60;Cannot assume role for
+          )}&#x60;,
+        };
+      }
+
+      const client &#x3D; new CloudTrailClient({
+        region,
+        credentials: {
+          accessKeyId: response.Credentials.AccessKeyId,
+          secretAccessKey: response.Credentials.SecretAccessKey,
+          sessionToken: response.Credentials.SessionToken,
+        },
+      });
+
+      const command &#x3D; new LookupEventsCommand(options);
+      const response1 &#x3D; await client.send(command);
+      console.log(response1);
+    } catch (e) {
+      console.log(e);
+    }
+  }
+}
+</code></pre>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'injectable';
+            var COMPODOC_CURRENT_PAGE_URL = 'MigrationService.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
